@@ -1,9 +1,14 @@
 <template>
   <div class="min-h-screen bg-gray-50 flex flex-col font-sans">
+    <TopBanner />
     <AppHeader />
     <main class="flex-grow">
       <HeroSection />
+      <!-- Spacer component placeholder -->
+      <div class="h-16 lg:h-24"></div>
       <WelcomeSection />
+      <!-- Spacer component placeholder -->
+      <div class="h-16 lg:h-24"></div>
       <NextStepsSection />
     </main>
     <AppFooter />
@@ -16,6 +21,7 @@ const { loadModule } = window['vue3-sfc-loader'];
 export default {
   name: 'App',
   components: {
+    TopBanner: Vue.defineAsyncComponent(() => loadModule('./components/TopBanner.vue', options)),
     AppHeader: Vue.defineAsyncComponent(() => loadModule('./components/AppHeader.vue', options)),
     HeroSection: Vue.defineAsyncComponent(() => loadModule('./components/HeroSection.vue', options)),
     WelcomeSection: Vue.defineAsyncComponent(() => loadModule('./components/WelcomeSection.vue', options)),

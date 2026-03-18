@@ -2,13 +2,24 @@
   <section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gray-900 pt-20">
     <!-- Background Image / Video Wrapper -->
     <div class="absolute inset-0 z-0">
+      <!-- Video Background -->
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        class="absolute inset-0 w-full h-full object-cover opacity-60"
+      >
+        <source src="https://cms-assets.life.church/lc-site/pages/easter/Easter Web Background Edit.mp4" type="video/mp4">
+      </video>
+      <!-- Fallback Image -->
       <img 
         src="https://cms-images.life.church/lc-site/pages/easter/2026/easter-clouds-gradient-lower.jpg" 
         alt="Background" 
-        class="absolute inset-0 w-full h-full object-cover transform scale-105 transition-transform duration-[20s] ease-out animate-slow-zoom"
+        class="absolute inset-0 w-full h-full object-cover transform scale-105 transition-transform duration-[20s] ease-out animate-slow-zoom -z-10"
       />
       <!-- Gradient Overlay matching "black-overlay-50" -->
-      <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-gray-900/30"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-gray-900/20"></div>
     </div>
 
     <!-- Content Container -->
@@ -20,11 +31,11 @@
         <img 
           src="https://cms-images.life.church/lc-site/pages/easter/2026/easter-title-full.png" 
           alt="Easter at Life.Church" 
-          class="max-w-full w-4/5 md:w-full drop-shadow-2xl"
+          class="max-w-full w-4/5 md:w-full drop-shadow-2xl translate-y-0 group-hover:-translate-y-2 transition-transform duration-500"
         />
         
         <!-- CTA Button -->
-        <a href="https://www.life.church/easter" class="btn bg-white/10 hover:bg-white text-white hover:text-gray-900 border border-white/30 hover:border-white backdrop-blur-sm shadow-xl px-8 py-4 text-lg mt-4 animate-fade-in-up animation-delay-300 group">
+        <a href="https://www.life.church/easter/?utm_source=life_church&utm_medium=homepage&utm_campaign=easter-ad_no-dept_engagement#about" class="btn bg-white/10 hover:bg-white text-white hover:text-gray-900 border border-white/30 hover:border-white backdrop-blur-sm shadow-xl px-8 py-4 text-lg mt-4 animate-fade-in-up animation-delay-300 group">
           Learn What You Can Expect
           <i class="fa-solid fa-arrow-right ml-2 opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-2 transition-all duration-300"></i>
         </a>
@@ -39,13 +50,13 @@
           Find an Easter service time by choosing a Life.Church location near you.
         </p>
         
-        <!-- Times/Location Button (representing the special event times component) -->
+        <!-- Times/Location Button -->
         <a href="https://www.life.church/locations" class="btn btn-primary shadow-orange-500/50 shadow-lg px-8 py-4 text-lg">
           <i class="fa-solid fa-location-dot mr-2"></i> Find a Location
         </a>
         <p class="text-sm text-gray-400 mt-4">
           All online services are in US Central Time. 
-          <a href="https://live.life.church/" class="text-white hover:text-orange-400 underline transition-colors">Attend Online</a>
+          <a href="https://live.life.church/" class="text-white hover:text-orange-400 font-bold underline transition-colors">Attend Online</a>
         </p>
       </div>
 
