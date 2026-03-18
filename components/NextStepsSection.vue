@@ -50,19 +50,19 @@ export default {
           title: 'Ask for Prayer',
           description: "We'd love to pray with you.",
           image: 'https://cms-images.life.church/lc-site/pages/nextsteps/Prayer.jpg',
-          url: '#'
+          url: 'https://my.life.church/forms/prayer'
         },
         {
           title: 'Join a LifeGroup',
           description: "Find the people you can grow, laugh, and pray with.",
           image: 'https://cms-images.life.church/lc-site/pages/nextsteps/LifeGroups.jpg',
-          url: '#'
+          url: 'https://life.church/lifegroups/search'
         },
         {
           title: 'Find More Next Steps',
           description: "Discover the next step on your journey.",
           image: 'https://cms-images.life.church/lc-site/pages/nextsteps/MoreNextSteps.jpg',
-          url: '#'
+          url: 'https://www.life.church/nextsteps'
         }
       ]
     }

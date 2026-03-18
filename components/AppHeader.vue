@@ -89,28 +89,28 @@ export default {
       isScrolled: false,
       isMobileMenuOpen: false,
       mainLinks: [
-        { name: 'Media', url: '#' },
-        { name: 'Locations', url: '#' },
-        { name: 'Give', url: '#' },
-        { name: 'Who We Are', url: '#' },
-        { name: 'Worship', url: '#' }
+        { name: 'Media', url: 'https://www.life.church/media/' },
+        { name: 'Locations', url: 'https://www.life.church/locations/' },
+        { name: 'Give', url: 'https://www.life.church/giving/' },
+        { name: 'Who We Are', url: 'https://www.life.church/who-we-are/' },
+        { name: 'Worship', url: 'https://www.life.church/worship/' }
       ],
       connectLinks: [
-        { name: 'Kids', url: '#' },
-        { name: 'Youth', url: '#' },
-        { name: 'LifeGroups', url: '#' },
-        { name: 'Missions', url: '#' },
-        { name: 'You Said Yes', url: '#' },
-        { name: 'Start Serving', url: '#' },
-        { name: 'Grow Your Faith', url: '#' },
-        { name: 'Careers', url: '#' },
-        { name: 'Store', url: '#' }
+        { name: 'Kids', url: 'https://www.life.church/kids/' },
+        { name: 'Youth', url: 'https://www.life.church/switch/' },
+        { name: 'LifeGroups', url: 'https://www.life.church/lifegroups/' },
+        { name: 'Missions', url: 'https://www.life.church/missions/' },
+        { name: 'You Said Yes', url: 'https://www.life.church/yes/' },
+        { name: 'Start Serving', url: 'https://www.life.church/serving/' },
+        { name: 'Grow Your Faith', url: 'https://www.life.church/tools/' },
+        { name: 'Careers', url: 'https://www.life.church/careers/' },
+        { name: 'Store', url: 'https://shop.life.church/' }
       ],
       aboutLinks: [
-        { name: 'Our Beliefs', url: '#' },
-        { name: 'What to Expect', url: '#' },
-        { name: 'For Churches', url: '#' },
-        { name: 'Contact Us', url: '#' }
+        { name: 'Our Beliefs', url: 'https://www.life.church/who-we-are/our-beliefs/' },
+        { name: 'What to Expect', url: 'https://www.life.church/who-we-are/what-to-expect/' },
+        { name: 'For Churches', url: 'https://www.life.church/churches/' },
+        { name: 'Contact Us', url: 'https://www.life.church/contact/' }
       ]
     }
   },

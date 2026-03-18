@@ -63,17 +63,17 @@ export default {
   data() {
     return {
       linkColumns: [
-        [ { name: 'Watch', url: '#' }, { name: 'Locations', url: '#' } ],
-        [ { name: 'Give', url: '#' }, { name: 'Tools', url: '#' } ],
-        [ { name: 'For Churches', url: '#' }, { name: 'Careers', url: '#' } ],
-        [ { name: 'Shop', url: '#' }, { name: 'Contact Us', url: '#' } ]
+        [ { name: 'Watch', url: 'https://www.life.church/media/' }, { name: 'Locations', url: 'https://www.life.church/locations/' } ],
+        [ { name: 'Give', url: 'https://www.life.church/giving/' }, { name: 'Tools', url: 'https://www.life.church/tools/' } ],
+        [ { name: 'For Churches', url: 'https://www.life.church/churches/' }, { name: 'Careers', url: 'https://www.life.church/careers/' } ],
+        [ { name: 'Shop', url: 'https://shop.life.church/' }, { name: 'Contact Us', url: 'https://www.life.church/contact/' } ]
       ],
       socials: [
-        { name: 'Facebook', icon: 'fa-brands fa-facebook-f', url: '#' },
-        { name: 'Instagram', icon: 'fa-brands fa-instagram', url: '#' },
-        { name: 'TikTok', icon: 'fa-brands fa-tiktok', url: '#' },
-        { name: 'YouTube', icon: 'fa-brands fa-youtube', url: '#' },
-        { name: 'LinkedIn', icon: 'fa-brands fa-linkedin-in', url: '#' }
+        { name: 'Facebook', icon: 'fa-brands fa-facebook-f', url: 'https://www.facebook.com/life.church' },
+        { name: 'Instagram', icon: 'fa-brands fa-instagram', url: 'https://instagram.com/life.church' },
+        { name: 'TikTok', icon: 'fa-brands fa-tiktok', url: 'https://www.tiktok.com/@lifechurch' },
+        { name: 'YouTube', icon: 'fa-brands fa-youtube', url: 'https://www.youtube.com/user/LifeChurchtv' },
+        { name: 'LinkedIn', icon: 'fa-brands fa-linkedin-in', url: 'https://www.linkedin.com/company/lifechurch/' }
       ]
     }
   }
