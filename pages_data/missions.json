@@ -1,0 +1,2451 @@
+{
+  "currentPage": {
+    "@name": "missions",
+    "@path": "/missions",
+    "@id": "3e96de4b-0f5d-400d-a230-c0c094bfc50f",
+    "@nodeType": "mgnl:page",
+    "parentLabelNavBar": "Missions",
+    "facebook_og_image_public": "https://cms-images.life.church/lc-site/open-graph-images/missions-facebook-e6d7197f3cf9dcfde39ea42502a7910208eb9cb66798855f9c8cef448014d494.jpeg",
+    "hideParentLabel": false,
+    "mgnl:created": "2021-09-24T14:26:23.800Z",
+    "title": "Missions",
+    "hideInSubNav": false,
+    "displayNavBar": "true",
+    "twitter_og_image_public": "https://cms-images.life.church/lc-site/open-graph-images/missions-twitter-5c1f77842360c526f4b3a442ee53bc4bc6933d781444609059b4f967c30b3412.jpeg",
+    "hideInNav": false,
+    "facebook_og_image": "https://cms-images.life.church/lc-site/open-graph-images/missions-facebook-e6d7197f3cf9dcfde39ea42502a7910208eb9cb66798855f9c8cef448014d494.jpeg",
+    "noFollow": false,
+    "mgnl:template": "lifechurch:pages/lifechurchbase",
+    "field": "parentPage",
+    "navigationTitle": "About Missions",
+    "seoDescription": "We are dedicated to bringing hope and healing to people everywhere. See how you play a key role in relief and restoration work through our Global and Local Mission Partners.",
+    "colorTheme": "teal",
+    "twitter_og_image": "https://cms-images.life.church/lc-site/open-graph-images/missions-twitter-5c1f77842360c526f4b3a442ee53bc4bc6933d781444609059b4f967c30b3412.jpeg",
+    "noIndex": false,
+    "mgnl:lastModified": "2026-02-20T16:07:10.759+01:00",
+    "main": {
+      "0": {
+        "@name": "0",
+        "@path": "/missions/main/0",
+        "@id": "3918f43b-c01d-4195-a6c4-d9ff4ff60778",
+        "@nodeType": "mgnl:component",
+        "gradientType": "none",
+        "zoneWidth": "twothirds",
+        "gradientstart": "transparent",
+        "backgroundImageMobile_public": "https://cms-images.life.church/lc-site/2023/hero-giving-tuesday23-mobile.jpg",
+        "bgcolor": "gray-10",
+        "mgnl:template": "lifechurch:components/singlecontentzone",
+        "mgnl:created": "2024-12-04T23:33:47.232+01:00",
+        "bgRepeat": false,
+        "backgroundImage_public": "https://cms-images.life.church/lc-site/2023/hero-giving-tuesday23-desktop.jpg",
+        "alignment": "text-left",
+        "sbOnMobile": "mb-none",
+        "mgnl:lastModified": "2024-12-20T16:18:51.282+01:00",
+        "zoneHeight": "normal",
+        "sbOnTabletAndUp": "mb-none",
+        "gradientend": "transparent",
+        "backgroundImageMobile": "https://cms-images.life.church/lc-site/2023/hero-giving-tuesday23-mobile.jpg",
+        "backgroundImage": "https://cms-images.life.church/lc-site/2023/hero-giving-tuesday23-desktop.jpg",
+        "colorsetting": "text-white",
+        "zones": {
+          "0": {
+            "@name": "0",
+            "@path": "/missions/main/0/zones/0",
+            "@id": "7892f78b-b889-4cbe-9d49-47634599baa5",
+            "@nodeType": "mgnl:component",
+            "headingText": "Bringing hope and healing to people everywhere.",
+            "mgnl:template": "lifechurch:components/heading",
+            "mgnl:created": "2024-12-04T23:33:47.232+01:00",
+            "alignment": "text-left",
+            "sbOnMobile": "mb-none",
+            "headingLevel": "h1",
+            "headingType": "huge",
+            "sbOnTabletAndUp": "mb-none",
+            "colorsetting": "currentColor",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "@name": "zones",
+          "@path": "/missions/main/0/zones",
+          "@id": "66cc8866-425b-4ffe-aaf6-a21a38d03f9b",
+          "@nodeType": "mgnl:area",
+          "mgnl:created": "2024-12-04T23:33:47.232+01:00",
+          "03": {
+            "@name": "03",
+            "@path": "/missions/main/0/zones/03",
+            "@id": "373112f6-63af-42a3-929a-7c71abef51ab",
+            "@nodeType": "mgnl:component",
+            "size": "pt-bit_more_relaxed",
+            "mgnl:template": "lifechurch:components/spacer",
+            "mgnl:created": "2024-12-04T23:33:47.232+01:00",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "01": {
+            "@name": "01",
+            "@path": "/missions/main/0/zones/01",
+            "@id": "b76dee1d-194d-4ce1-add3-7b7e44adbf38",
+            "@nodeType": "mgnl:component",
+            "size": "pt-very_relaxed",
+            "mgnl:template": "lifechurch:components/spacer",
+            "mgnl:created": "2024-12-04T23:33:47.232+01:00",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "00": {
+            "@name": "00",
+            "@path": "/missions/main/0/zones/00",
+            "@id": "12f667a5-6262-4c00-8a06-e8c7c5b8917b",
+            "@nodeType": "mgnl:component",
+            "size": "pt-very_relaxed",
+            "mgnl:template": "lifechurch:components/spacer",
+            "mgnl:created": "2024-12-04T23:33:47.232+01:00",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "02": {
+            "@name": "02",
+            "@path": "/missions/main/0/zones/02",
+            "@id": "82e9c2fb-2056-406c-bd90-072f228f1e0b",
+            "@nodeType": "mgnl:component",
+            "size": "pt-bit_more_relaxed",
+            "mgnl:template": "lifechurch:components/spacer",
+            "mgnl:created": "2024-12-04T23:33:47.232+01:00",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "@nodes": [
+            "03",
+            "01",
+            "0",
+            "00",
+            "02"
+          ],
+          "@workspace": "website"
+        },
+        "@nodes": [
+          "zones"
+        ],
+        "@workspace": "website"
+      },
+      "@name": "main",
+      "@path": "/missions/main",
+      "@id": "4d100072-aa87-4faa-9109-50f04f50d065",
+      "@nodeType": "mgnl:area",
+      "mgnl:lastModified": "2026-02-20T16:07:10.759+01:00",
+      "mgnl:created": "2021-09-24T14:26:29.678Z",
+      "00": {
+        "@name": "00",
+        "@path": "/missions/main/00",
+        "@id": "b0a737ce-5e95-4176-8de1-8526f9083f1a",
+        "@nodeType": "mgnl:component",
+        "gradientType": "none",
+        "zoneWidth": "twothirds",
+        "gradientstart": "white",
+        "pyOnMobile": "py-bit_more_relaxed",
+        "bgcolor": "gray-5",
+        "mgnl:template": "lifechurch:components/singlecontentzone",
+        "mgnl:created": "2024-12-04T23:33:47.279+01:00",
+        "bgRepeat": false,
+        "alignment": "text-center",
+        "sbOnMobile": "mb-none",
+        "mgnl:lastModified": "2024-12-20T16:18:51.282+01:00",
+        "pyOnTabletAndUp": "py-slightly_more_relaxed",
+        "sbOnTabletAndUp": "mb-none",
+        "zoneHeight": "normal",
+        "gradientend": "white",
+        "colorsetting": "currentColor",
+        "zones": {
+          "0": {
+            "@name": "0",
+            "@path": "/missions/main/00/zones/0",
+            "@id": "80a0644b-b241-466b-bc2c-a28aad70a0a0",
+            "@nodeType": "mgnl:component",
+            "headingText": "Our Approach\n<div>to Missions</div>\n",
+            "mgnl:template": "lifechurch:components/heading",
+            "mgnl:created": "2024-12-04T23:33:47.279+01:00",
+            "alignment": "text-center",
+            "sbOnMobile": "mb-normal",
+            "headingLevel": "h3",
+            "headingType": "title",
+            "sbOnTabletAndUp": "mb-relaxed",
+            "colorsetting": "currentColor",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "@name": "zones",
+          "@path": "/missions/main/00/zones",
+          "@id": "6e234c34-265e-44ee-9204-8f05c63f7274",
+          "@nodeType": "mgnl:area",
+          "mgnl:lastModified": "2024-12-20T16:18:51.282+01:00",
+          "mgnl:created": "2024-12-04T23:33:47.279+01:00",
+          "00": {
+            "@name": "00",
+            "@path": "/missions/main/00/zones/00",
+            "@id": "7b5b4489-efec-4303-8aee-fe773f4c1c5d",
+            "@nodeType": "mgnl:component",
+            "size": "pt-bit_more_relaxed",
+            "mgnl:template": "lifechurch:components/spacer",
+            "mgnl:created": "2024-12-04T23:33:47.279+01:00",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "02": {
+            "@name": "02",
+            "@path": "/missions/main/00/zones/02",
+            "@id": "c24fb7c4-aec1-4246-b1e7-3fb6a3b24d6e",
+            "@nodeType": "mgnl:component",
+            "sbOnMobile": "mb-normal",
+            "alignment": "text-center",
+            "content": "<p class=\"text-paragraph_large\">We&rsquo;re&nbsp;dedicated to bringing hope and healing to people everywhere by caring for their physical, spiritual, and relational needs&mdash;just like Jesus did. We support strategically-selected organizations in our communities and around the world to partner with God in the work He&rsquo;s already doing.</p>\n\n<p class=\"text-paragraph_large\">With your help, we can reach people of every age, location, and language for Christ.</p>\n",
+            "sbOnTabletAndUp": "mb-relaxed",
+            "mgnl:template": "lifechurch:components/richtext",
+            "colorsetting": "currentColor",
+            "mgnl:created": "2024-12-04T23:33:47.279+01:00",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "01": {
+            "@name": "01",
+            "@path": "/missions/main/00/zones/01",
+            "@id": "905129c7-a287-48b0-9b86-990646554f3c",
+            "@nodeType": "mgnl:component",
+            "size": "pt-bit_more_relaxed",
+            "mgnl:template": "lifechurch:components/spacer",
+            "mgnl:created": "2024-12-04T23:33:47.279+01:00",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "03": {
+            "@name": "03",
+            "@path": "/missions/main/00/zones/03",
+            "@id": "e59c750c-381d-4fae-9f26-1d9c3264c3af",
+            "@nodeType": "mgnl:component",
+            "mgnl:lastModified": "2024-12-20T16:18:51.282+01:00",
+            "mgnl:template": "lifechurch:components/opencontentlistcards",
+            "mgnl:created": "2024-12-04T23:33:47.279+01:00",
+            "type": {
+              "@name": "type",
+              "@path": "/missions/main/00/zones/03/type",
+              "@id": "a206f27f-566b-4a07-be10-41b19dd717e4",
+              "@nodeType": "mgnl:contentNode",
+              "field": "cards",
+              "itemsType": "vertical-cards",
+              "mgnl:created": "2024-12-04T23:33:47.279+01:00",
+              "@nodes": [],
+              "@workspace": "website"
+            },
+            "items": {
+              "0": {
+                "@name": "0",
+                "@path": "/missions/main/00/zones/03/items/0",
+                "@id": "eb253e1f-0a16-46cd-8c9a-ccae90312fe6",
+                "@nodeType": "mgnl:component",
+                "linkaction": "url",
+                "target": "_blank",
+                "linkTitle": "About Global Missions",
+                "image_public": "https://cms-images.life.church/lc-site/pages/missions/2024-update/GlobalMissions_ContentCard.jpg",
+                "backgroundSize": "cover",
+                "mgnl:template": "lifechurch:components/opencontentlistitem",
+                "mgnl:created": "2024-12-04T23:33:47.279+01:00",
+                "alt": "Global Missions",
+                "content": "<p>We&rsquo;re committed to translating the Bible, helping communities access clean water, rescuing victims of human trafficking, and more.</p>\n",
+                "title": "Global Missions",
+                "url": "https://www.life.church/missions/global/",
+                "mgnl:lastModified": "2024-12-20T16:18:51.282+01:00",
+                "wholeCardLink": "true",
+                "image": {
+                  "@name": "GlobalMissions_ContentCard.jpg",
+                  "@path": "magnolia-cms-live/lc-site/pages/missions/2024-update/GlobalMissions_ContentCard.jpg",
+                  "@id": "https://cms-images.life.church/lc-site/pages/missions/2024-update/GlobalMissions_ContentCard.jpg",
+                  "@link": "https://cms-images.life.church/lc-site/pages/missions/2024-update/GlobalMissions_ContentCard.jpg",
+                  "metadata": {
+                    "fileName": "GlobalMissions_ContentCard.jpg",
+                    "mimeType": "image/jpeg",
+                    "fileSize": 2644707,
+                    "height": 0,
+                    "width": 0,
+                    "format": "image/jpeg",
+                    "source": "magnolia-cms-live/lc-site/pages/missions/2024-update/GlobalMissions_ContentCard.jpg",
+                    "date": "2024-10-29T22:05:38.000+01:00",
+                    "created": "2024-10-29T22:05:38.000+01:00",
+                    "modified": "2024-10-29T22:05:38.000+01:00"
+                  },
+                  "@workspace": "website"
+                },
+                "@nodes": [],
+                "@workspace": "website"
+              },
+              "@name": "items",
+              "@path": "/missions/main/00/zones/03/items",
+              "@id": "d10343be-3f23-4725-9797-5595b390286a",
+              "@nodeType": "mgnl:area",
+              "mgnl:lastModified": "2024-12-20T16:18:51.282+01:00",
+              "mgnl:created": "2024-12-04T23:33:47.279+01:00",
+              "00": {
+                "@name": "00",
+                "@path": "/missions/main/00/zones/03/items/00",
+                "@id": "7a742969-88fb-45a5-b6a0-6fe5d60f0e04",
+                "@nodeType": "mgnl:component",
+                "linkaction": "url",
+                "target": "_blank",
+                "image_public": "https://cms-images.life.church/lc-site/pages/missions/2024-update/LocalMissions_ContentCard-V2.jpg",
+                "linkTitle": "About Local Missions",
+                "backgroundSize": "cover",
+                "mgnl:template": "lifechurch:components/opencontentlistitem",
+                "mgnl:created": "2024-12-04T23:33:47.279+01:00",
+                "alt": "Local Missions",
+                "content": "<p>By investing in Local Mission Partners, we help empower our communities, strengthen families, and stand against injustice.</p>\n",
+                "title": "Local Missions",
+                "url": "https://www.life.church/missions/local/",
+                "mgnl:lastModified": "2024-12-20T16:18:51.282+01:00",
+                "wholeCardLink": "true",
+                "image": {
+                  "@name": "LocalMissions_ContentCard-V2.jpg",
+                  "@path": "magnolia-cms-live/lc-site/pages/missions/2024-update/LocalMissions_ContentCard-V2.jpg",
+                  "@id": "https://cms-images.life.church/lc-site/pages/missions/2024-update/LocalMissions_ContentCard-V2.jpg",
+                  "@link": "https://cms-images.life.church/lc-site/pages/missions/2024-update/LocalMissions_ContentCard-V2.jpg",
+                  "metadata": {
+                    "fileName": "LocalMissions_ContentCard-V2.jpg",
+                    "mimeType": "image/jpeg",
+                    "fileSize": 2428982,
+                    "height": 0,
+                    "width": 0,
+                    "format": "image/jpeg",
+                    "source": "magnolia-cms-live/lc-site/pages/missions/2024-update/LocalMissions_ContentCard-V2.jpg",
+                    "date": "2024-10-29T22:41:35.000+01:00",
+                    "created": "2024-10-29T22:41:35.000+01:00",
+                    "modified": "2024-10-29T22:41:35.000+01:00"
+                  },
+                  "@workspace": "website"
+                },
+                "@nodes": [],
+                "@workspace": "website"
+              },
+              "@nodes": [
+                "00",
+                "0"
+              ],
+              "@workspace": "website"
+            },
+            "@nodes": [
+              "type",
+              "items"
+            ],
+            "@workspace": "website"
+          },
+          "04": {
+            "@name": "04",
+            "@path": "/missions/main/00/zones/04",
+            "@id": "120b4a9c-a6c5-4c05-a7c3-0ea20453589d",
+            "@nodeType": "mgnl:component",
+            "size": "pt-bit_more_relaxed",
+            "mgnl:template": "lifechurch:components/spacer",
+            "mgnl:created": "2024-12-04T23:33:47.279+01:00",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "@nodes": [
+            "00",
+            "0",
+            "02",
+            "01",
+            "03",
+            "04"
+          ],
+          "@workspace": "website"
+        },
+        "@nodes": [
+          "zones"
+        ],
+        "@workspace": "website"
+      },
+      "03": {
+        "@name": "03",
+        "@path": "/missions/main/03",
+        "@id": "1c25c32a-9003-40c7-b3ef-9f5f848b2b2b",
+        "@nodeType": "mgnl:component",
+        "zoneWidth": "twothirds",
+        "gradientType": "none",
+        "gradientstart": "transparent",
+        "bgcolor": "transparent",
+        "mgnl:template": "lifechurch:components/singlecontentzone",
+        "mgnl:created": "2024-12-04T23:33:47.343+01:00",
+        "bgRepeat": false,
+        "alignment": "text-center",
+        "sbOnMobile": "mb-none",
+        "mgnl:lastModified": "2026-02-20T16:07:10.759+01:00",
+        "zoneHeight": "normal",
+        "gradientend": "transparent",
+        "sbOnTabletAndUp": "mb-none",
+        "colorsetting": "currentColor",
+        "zones": {
+          "0": {
+            "@name": "0",
+            "@path": "/missions/main/03/zones/0",
+            "@id": "0b4631ce-1750-42c2-89a8-3f89e0b15e00",
+            "@nodeType": "mgnl:component",
+            "headingText": "Missions FAQs",
+            "mgnl:template": "lifechurch:components/heading",
+            "mgnl:created": "2024-12-04T23:33:47.343+01:00",
+            "alignment": "text-center",
+            "sbOnMobile": "mb-normal",
+            "headingLevel": "h2",
+            "headingType": "section_header",
+            "sbOnTabletAndUp": "mb-relaxed",
+            "colorsetting": "currentColor",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "@name": "zones",
+          "@path": "/missions/main/03/zones",
+          "@id": "724c270f-7212-4eeb-b1b4-091b60c639e2",
+          "@nodeType": "mgnl:area",
+          "mgnl:lastModified": "2026-02-20T16:07:10.759+01:00",
+          "mgnl:created": "2024-12-04T23:33:47.343+01:00",
+          "00": {
+            "@name": "00",
+            "@path": "/missions/main/03/zones/00",
+            "@id": "25d77ad4-68a4-4a24-be01-79c2d9f46446",
+            "@nodeType": "mgnl:component",
+            "sbOnMobile": "mb-none",
+            "singleSelect": true,
+            "mgnl:lastModified": "2026-02-20T16:07:10.759+01:00",
+            "sbOnTabletAndUp": "mb-none",
+            "mgnl:template": "lifechurch:components/accordion",
+            "mgnl:created": "2024-12-04T23:33:47.343+01:00",
+            "items": {
+              "0": {
+                "@name": "0",
+                "@path": "/missions/main/03/zones/00/items/0",
+                "@id": "ab1b70d4-430d-471e-90d6-616626d0b93d",
+                "@nodeType": "mgnl:component",
+                "title": "How can I learn more about Life.Church’s Global Partners?",
+                "content": "<p>Visit our <a class=\"text-life-missions\" href=\"https://www.life.church/missions/global/\" rel=\"noreferrer nofollow noopener\" target=\"_blank\">Global Missions page</a> to find a list of our partners. For more information, visit their websites, check out their social media accounts, and see if they have volunteer opportunities available.</p>\n",
+                "mgnl:lastModified": "2026-01-09T23:45:51.613+01:00",
+                "mgnl:template": "lifechurch:components/accordionitem",
+                "isOpened": false,
+                "mgnl:created": "2024-12-04T23:33:47.343+01:00",
+                "@nodes": [],
+                "@workspace": "website"
+              },
+              "@name": "items",
+              "@path": "/missions/main/03/zones/00/items",
+              "@id": "dd1e5f67-e51c-4543-8dda-99eabe0330c6",
+              "@nodeType": "mgnl:area",
+              "mgnl:lastModified": "2026-02-20T16:07:10.759+01:00",
+              "mgnl:created": "2024-12-04T23:33:47.343+01:00",
+              "00": {
+                "@name": "00",
+                "@path": "/missions/main/03/zones/00/items/00",
+                "@id": "298f103c-6f0d-410f-92e3-646d98f94e78",
+                "@nodeType": "mgnl:component",
+                "content": "<p>In our communities, we strategically select <a class=\"text-local-missions\" href=\"https://www.life.church/lifegroups/search/?campus=all&amp;groupTypes=local-partner\" target=\"_blank\">Local Mission Partners</a> that are transforming our cities in five key areas: families, well-being, education, justice, and community empowerment.</p>\n\n<p>Globally, we partner with organizations who specialize in translating the Bible, helping communities access clean water, rescuing victims of human trafficking, and much more.</p>\n",
+                "title": "Which causes does Life.Church support?",
+                "mgnl:lastModified": "2026-01-09T23:41:10.902+01:00",
+                "isOpened": false,
+                "mgnl:template": "lifechurch:components/accordionitem",
+                "mgnl:created": "2024-12-04T23:33:47.343+01:00",
+                "@nodes": [],
+                "@workspace": "website"
+              },
+              "01": {
+                "@name": "01",
+                "@path": "/missions/main/03/zones/00/items/01",
+                "@id": "85cd2f13-e9ee-45f0-a8de-3b5e9c884fc8",
+                "@nodeType": "mgnl:component",
+                "content": "<p>You can get involved by volunteering with a <a class=\"text-local-missions\" href=\"https://www.life.church/lifegroups/search/?utm_source=life_church&amp;utm_medium=menu&amp;utm_campaign=navigation&amp;groupTypes=Local%20Partner\" rel=\"noreferrer nofollow noopener\" target=\"_blank\">Local Mission Partner</a>, <a class=\"text-giving_green\" href=\"https://www.life.church/give?utm_source=life_church&amp;utm_medium=missions_lp&amp;utm_campaign=generosity-ad_no-dept_engagement&amp;fund=Local%20%26%20Global%20Missions\" target=\"_blank\">giving to Local &amp; Global Missions</a>, <a class=\"text-life-missions\" href=\"https://www.life.church/missions#subscribe\">signing up for our missions email updates</a>, and joining us in prayer.</p>\n",
+                "title": "How can I get involved?",
+                "mgnl:lastModified": "2026-02-20T16:07:10.759+01:00",
+                "isOpened": false,
+                "mgnl:template": "lifechurch:components/accordionitem",
+                "mgnl:created": "2024-12-04T23:33:47.343+01:00",
+                "@nodes": [],
+                "@workspace": "website"
+              },
+              "02": {
+                "@name": "02",
+                "@path": "/missions/main/03/zones/00/items/02",
+                "@id": "3acfc433-6016-4089-939f-0ef6c9a3aaee",
+                "@nodeType": "mgnl:component",
+                "title": "How will being a part of missions efforts build my faith?",
+                "content": "<p>Following Jesus&rsquo; example helps us live more like Him. When you use your time, talents, and resources to show God&rsquo;s love to others, it doesn&rsquo;t just impact the people around you&mdash;it impacts you, too.</p>\n",
+                "mgnl:lastModified": "2025-10-31T16:46:18.891+01:00",
+                "mgnl:template": "lifechurch:components/accordionitem",
+                "isOpened": false,
+                "mgnl:created": "2024-12-04T23:33:47.343+01:00",
+                "@nodes": [],
+                "@workspace": "website"
+              },
+              "03": {
+                "@name": "03",
+                "@path": "/missions/main/03/zones/00/items/03",
+                "@id": "a0fcac76-3d88-4522-81d9-602eda68a92c",
+                "@nodeType": "mgnl:component",
+                "title": "Does Life.Church do missions trips?",
+                "content": "<p>Instead of organizing missions trips, Life.Church focuses on supporting trusted Global Mission Partners who have expertise in key areas. Resources like <a class=\"text-life-missions\" href=\"https://becomingwholebook.com/\" rel=\"noreferrer nofollow noopener\" target=\"_blank\"><em>Becoming Whole</em></a> have deepened our understanding of poverty and shaped our approach to global missions&mdash;we strongly recommend it!</p>\n\n<p>When you <a class=\"text-giving_green\" href=\"https://www.life.church/give?utm_source=life_church&amp;utm_medium=missions_lp&amp;utm_campaign=generosity-ad_no-dept_engagement&amp;fund=Local%20%26%20Global%20Missions\" target=\"_blank\">give to Local &amp; Global Missions</a>, you can be confident you&rsquo;re joining some of the best in the world to do what God&rsquo;s called each of us to do.</p>\n",
+                "mgnl:lastModified": "2026-01-09T23:44:47.691+01:00",
+                "isOpened": false,
+                "mgnl:template": "lifechurch:components/accordionitem",
+                "mgnl:created": "2024-12-04T23:33:47.343+01:00",
+                "@nodes": [],
+                "@workspace": "website"
+              },
+              "04": {
+                "@name": "04",
+                "@path": "/missions/main/03/zones/00/items/04",
+                "@id": "8c90b155-bb5a-40ed-926c-7ab3a4a048f7",
+                "@nodeType": "mgnl:component",
+                "content": "<p><a class=\"text-life-missions\" href=\"https://rms.life.church/forms/questions?utm_source=life.church&amp;utm_medium=website&amp;utm_content=MoreMenu-Contact&amp;utm_campaign=Life.Church&amp;_gl=1*xzlhwz*_gcl_au*NjIzMzg4NDMwLjE3MjYwNzM2MTE.*_ga*MTI1MDMwODgwMS4xNzA5NjYwNjUz*_ga_6WXMZCL758*MTczMDQ4NDI4OS44Ni4xLjE3MzA0ODQyOTYuNTMuMC4w\" target=\"_blank\">Let us know</a>, and we&rsquo;ll make sure the right person on our team gets back to you.</p>\n",
+                "title": "What if I have a question about Life.Church’s Global Partners?",
+                "mgnl:lastModified": "2026-01-09T23:46:11.005+01:00",
+                "isOpened": false,
+                "mgnl:template": "lifechurch:components/accordionitem",
+                "mgnl:created": "2024-12-04T23:33:47.343+01:00",
+                "@nodes": [],
+                "@workspace": "website"
+              },
+              "@nodes": [
+                "00",
+                "01",
+                "02",
+                "03",
+                "0",
+                "04"
+              ],
+              "@workspace": "website"
+            },
+            "@nodes": [
+              "items"
+            ],
+            "@workspace": "website"
+          },
+          "@nodes": [
+            "0",
+            "00"
+          ],
+          "@workspace": "website"
+        },
+        "@nodes": [
+          "zones"
+        ],
+        "@workspace": "website"
+      },
+      "02": {
+        "@name": "02",
+        "@path": "/missions/main/02",
+        "@id": "38681fdb-1a31-4d6a-8e17-8b2c706424bb",
+        "@nodeType": "mgnl:component",
+        "zoneWidth": "twothirds",
+        "gradientType": "none",
+        "gradientstart": "transparent",
+        "pyOnMobile": "py-none",
+        "bgcolor": "transparent",
+        "mgnl:template": "lifechurch:components/singlecontentzone",
+        "bgRepeat": false,
+        "mgnl:created": "2024-12-04T23:33:47.398+01:00",
+        "alignment": "text-center",
+        "sbOnMobile": "mb-none",
+        "pyOnTabletAndUp": "py-none",
+        "zoneHeight": "normal",
+        "gradientend": "transparent",
+        "sbOnTabletAndUp": "mb-none",
+        "colorsetting": "currentColor",
+        "zones": {
+          "0": {
+            "@name": "0",
+            "@path": "/missions/main/02/zones/0",
+            "@id": "3bc21936-d5a9-40a9-9ae3-64f1372e931c",
+            "@nodeType": "mgnl:component",
+            "sectionId": "updates",
+            "headingText": "The Latest from Local &amp; Global Missions",
+            "mgnl:template": "lifechurch:components/heading",
+            "mgnl:created": "2024-12-04T23:33:47.398+01:00",
+            "alignment": "text-center",
+            "sbOnMobile": "mb-none",
+            "headingLevel": "h2",
+            "headingType": "section_header",
+            "sbOnTabletAndUp": "mb-none",
+            "colorsetting": "currentColor",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "@name": "zones",
+          "@path": "/missions/main/02/zones",
+          "@id": "2192e3ea-2cbe-42b2-aba5-3128655ac1aa",
+          "@nodeType": "mgnl:area",
+          "mgnl:created": "2024-12-04T23:33:47.398+01:00",
+          "00": {
+            "@name": "00",
+            "@path": "/missions/main/02/zones/00",
+            "@id": "d414b3fe-3f94-4fc8-8ef5-9cdd3bc34a72",
+            "@nodeType": "mgnl:component",
+            "size": "pt-very_relaxed",
+            "mgnl:template": "lifechurch:components/spacer",
+            "mgnl:created": "2024-12-04T23:33:47.398+01:00",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "@nodes": [
+            "00",
+            "0"
+          ],
+          "@workspace": "website"
+        },
+        "@nodes": [
+          "zones"
+        ],
+        "@workspace": "website"
+      },
+      "04": {
+        "@name": "04",
+        "@path": "/missions/main/04",
+        "@id": "e729231f-eb44-4daa-8111-bf5fad790399",
+        "@nodeType": "mgnl:component",
+        "spaceBetweenMobile": "s-between-more_relaxed",
+        "sectionId": "subscribe",
+        "alignTabletMobile": "direction-horizontal",
+        "verticalAlignment": "vertical-center",
+        "leftTextColor": "text-black",
+        "mgnl:created": "2024-12-04T23:33:47.442+01:00",
+        "alignment": "text-left",
+        "rightTextColor": "text-black",
+        "sbOnTabletAndUp": "mb-even_more_relaxed",
+        "gradientType": "none",
+        "gradientstart": "transparent",
+        "pyOnMobile": "py-bit_more_relaxed",
+        "rightAreaBgPosition": "normal",
+        "bgcolor": "transparent",
+        "leftAreaBgColor": "transparent",
+        "mgnl:template": "lifechurch:components/dualcontentzone",
+        "leftAreaBgPosition": "fiftyLeft",
+        "bgRepeat": false,
+        "spaceBetweenTabletDesktop": "s-between-more_relaxed",
+        "sbOnMobile": "mb-more_relaxed",
+        "reverseMobile": false,
+        "pyOnTabletAndUp": "py-slightly_more_relaxed",
+        "mgnl:lastModified": "2026-02-19T20:30:26.269+01:00",
+        "gradientend": "transparent",
+        "zoneHeight": "normal",
+        "rightAreaBgColor": "transparent",
+        "arealeft": {
+          "0": {
+            "@name": "0",
+            "@path": "/missions/main/04/arealeft/0",
+            "@id": "11fff3e4-1668-44c6-9e1f-563320c93427",
+            "@nodeType": "mgnl:component",
+            "sectionId": "updates",
+            "headingText": "Get Monthly Missions Updates in Your Inbox",
+            "mgnl:template": "lifechurch:components/heading",
+            "mgnl:created": "2024-12-04T23:33:47.442+01:00",
+            "sbOnMobile": "mb-normal",
+            "alignment": "text-left",
+            "headingLevel": "h2",
+            "headingType": "section_header",
+            "sbOnTabletAndUp": "mb-relaxed",
+            "colorsetting": "currentColor",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "@name": "arealeft",
+          "@path": "/missions/main/04/arealeft",
+          "@id": "97165cde-67e3-4d38-90b8-ebddbe9ba677",
+          "@nodeType": "mgnl:area",
+          "mgnl:created": "2024-12-04T23:33:47.442+01:00",
+          "00": {
+            "@name": "00",
+            "@path": "/missions/main/04/arealeft/00",
+            "@id": "bb09cad4-b256-4522-8c78-e871e4db1f9b",
+            "@nodeType": "mgnl:component",
+            "sectionId": "updates",
+            "headingText": "Enter your email to receive inspiring stories and prayer requests from our partners, hear about ways you can get involved, and more.",
+            "mgnl:template": "lifechurch:components/heading",
+            "mgnl:created": "2024-12-04T23:33:47.442+01:00",
+            "alignment": "text-left",
+            "sbOnMobile": "mb-none",
+            "headingLevel": "h4",
+            "headingType": "paragraph_normal",
+            "sbOnTabletAndUp": "mb-none",
+            "colorsetting": "currentColor",
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "01": {
+            "@name": "01",
+            "@path": "/missions/main/04/arealeft/01",
+            "@id": "c60174f8-c400-4de3-bd6a-8eefdcbe51cb",
+            "@nodeType": "mgnl:component",
+            "sbOnMobile": "mb-none",
+            "sbOnTabletAndUp": "mb-none",
+            "mgnl:template": "lifechurch:components/embeditem",
+            "mgnl:created": "2024-12-04T23:33:47.442+01:00",
+            "type": {
+              "@name": "type",
+              "@path": "/missions/main/04/arealeft/01/type",
+              "@id": "e82a949d-1056-448e-9619-49e9fc929cf2",
+              "@nodeType": "mgnl:contentNode",
+              "hubspotStyle": "btn-inside-input",
+              "field": "hubspot",
+              "hubspotFormID": "195b9348-0c59-4f43-a918-8601dc8e393a",
+              "mgnl:created": "2024-12-04T23:33:47.442+01:00",
+              "@nodes": [],
+              "@workspace": "website"
+            },
+            "@nodes": [
+              "type"
+            ],
+            "@workspace": "website"
+          },
+          "@nodes": [
+            "0",
+            "00",
+            "01"
+          ],
+          "@workspace": "website"
+        },
+        "arearight": {
+          "@name": "arearight",
+          "@path": "/missions/main/04/arearight",
+          "@id": "cb0c83fc-0c58-4bab-af79-cbbfaf58ca36",
+          "@nodeType": "mgnl:area",
+          "mgnl:lastModified": "2026-02-19T20:30:26.269+01:00",
+          "mgnl:created": "2024-12-04T23:33:47.442+01:00",
+          "03": {
+            "@name": "03",
+            "@path": "/missions/main/04/arearight/03",
+            "@id": "b9a6ec89-77dd-43e3-a702-d17bcd4335ea",
+            "@nodeType": "mgnl:component",
+            "sbOnMobile": "mb-normal",
+            "mgnl:lastModified": "2026-02-19T20:30:26.269+01:00",
+            "sbOnTabletAndUp": "mb-relaxed",
+            "mgnl:template": "lifechurch:components/opencontentlistcards",
+            "mgnl:created": "2024-12-04T23:33:47.442+01:00",
+            "type": {
+              "@name": "type",
+              "@path": "/missions/main/04/arearight/03/type",
+              "@id": "6d3af24a-1212-4dca-88aa-34c476f42ed9",
+              "@nodeType": "mgnl:contentNode",
+              "field": "cards",
+              "mgnl:created": "2024-12-04T23:33:47.442+01:00",
+              "itemsType": "vertical-cards",
+              "@nodes": [],
+              "@workspace": "website"
+            },
+            "items": {
+              "@name": "items",
+              "@path": "/missions/main/04/arearight/03/items",
+              "@id": "355c2d17-d668-404c-abbc-fc3afd5bbf2c",
+              "@nodeType": "mgnl:area",
+              "mgnl:lastModified": "2026-02-19T20:30:26.269+01:00",
+              "mgnl:created": "2024-12-04T23:33:47.442+01:00",
+              "00": {
+                "@name": "00",
+                "@path": "/missions/main/04/arearight/03/items/00",
+                "@id": "3354eeee-48e8-4950-9f0b-89c895850dd6",
+                "@nodeType": "mgnl:component",
+                "linkaction": "url",
+                "target": "_self",
+                "linkTitle": "Read More",
+                "image_public": "https://cms-assets.life.church/lc-site/pages/missions/The-Missions-Update/2026/02/RespiteV2 webp",
+                "subTitle": "February 2026",
+                "mgnl:template": "lifechurch:components/opencontentlistitem",
+                "backgroundSize": "cover",
+                "mgnl:created": "2026-02-19T20:30:13.106+01:00",
+                "alt": "Global Missions Update February 2026",
+                "title": "Missions Update",
+                "content": "<p>When Bobby was discharged after open-heart surgery during a winter storm, he had nowhere to heal. His story shows why City Care&#39;s new Medical Respite Center will transform how Oklahoma City cares for its most vulnerable neighbors.</p>\n",
+                "url": "https://www.life.church/missions/update/archive/2026/02",
+                "wholeCardLink": "true",
+                "image": {
+                  "@name": "RespiteV2 webp",
+                  "@path": "magnolia-cms-live/lc-site/pages/missions/The-Missions-Update/2026/02/RespiteV2 webp",
+                  "@id": "https://cms-images.life.church/lc-site/pages/missions/The-Missions-Update/2026/02/RespiteV2 webp",
+                  "@link": "https://cms-images.life.church/lc-site/pages/missions/The-Missions-Update/2026/02/RespiteV2%20webp",
+                  "metadata": {
+                    "fileName": "RespiteV2 webp",
+                    "mimeType": "image/webp",
+                    "fileSize": 4360594,
+                    "height": 0,
+                    "width": 0,
+                    "format": "image/webp",
+                    "source": "magnolia-cms-live/lc-site/pages/missions/The-Missions-Update/2026/02/RespiteV2 webp",
+                    "date": "2026-02-19T20:27:25.000+01:00",
+                    "created": "2026-02-19T20:27:25.000+01:00",
+                    "modified": "2026-02-19T20:27:25.000+01:00"
+                  },
+                  "@workspace": "website"
+                },
+                "@nodes": [],
+                "@workspace": "website"
+              },
+              "@nodes": [
+                "00"
+              ],
+              "@workspace": "website"
+            },
+            "@nodes": [
+              "type",
+              "items"
+            ],
+            "@workspace": "website"
+          },
+          "@nodes": [
+            "03"
+          ],
+          "@workspace": "website"
+        },
+        "@nodes": [
+          "arealeft",
+          "arearight"
+        ],
+        "@workspace": "website"
+      },
+      "@nodes": [
+        "0",
+        "00",
+        "03",
+        "02",
+        "04"
+      ],
+      "@workspace": "website"
+    },
+    "@nodes": [
+      "main"
+    ],
+    "@workspace": "website",
+    "preload": {
+      "footerData": {
+        "@name": "Footer-Setting",
+        "@path": "/Footer-Setting",
+        "@id": "f84c8ffd-7d41-4c72-8d04-f75024397663",
+        "@nodeType": "mgnl:content",
+        "jcr:createdBy": "admin",
+        "name": "Footer Setting",
+        "leftContent": "<p>Join us at&nbsp;<a href=\"http://live.life.church/\" target=\"_blank\">Church Online</a>&nbsp;or a&nbsp;<a href=\"https://www.life.church/locations\">Life.Church location</a>.</p>\n\n<p>&copy; 2020 Life.Church. All rights reserved.&nbsp;<a href=\"https://www.life.church/privacy/\">Privacy Policy</a>&nbsp;|&nbsp;<a href=\"https://www.life.church/terms/\">Terms of Use</a></p>\n",
+        "jcr:mixinTypes": [
+          "mix:versionable",
+          "mgnl:hasVersion"
+        ],
+        "jcr:created": "2021-07-09T21:03:11.281Z",
+        "mgnl:created": "2020-12-18T13:38:22.381Z",
+        "mgnl:createdBy": "superuser",
+        "jcr:predecessors": [
+          "2e786ed2-9ef1-4dba-9c0b-094a7320a116"
+        ],
+        "jcr:baseVersion": "2e786ed2-9ef1-4dba-9c0b-094a7320a116",
+        "policyContent": "<p>Attend&nbsp;<a href=\"https://live.life.church?utm_source=life_church&amp;utm_medium=footer_info&amp;utm_campaign=navigation\" target=\"_blank\">Life.Church Online</a>&nbsp;or a&nbsp;<a href=\"https://www.life.church/locations/?utm_source=life_church&amp;utm_medium=footer_info&amp;utm_campaign=navigation\">Life.Church location</a>.</p>\n\n<p><a href=\"https://www.life.church/privacy/?utm_source=life_church&amp;utm_medium=footer_info&amp;utm_campaign=navigation\">Privacy Policy</a>&nbsp;|&nbsp;<a href=\"https://www.life.church/terms/?utm_source=life_church&amp;utm_medium=footer_info&amp;utm_campaign=navigation\">Terms of Use</a>&nbsp;|&nbsp;<a href=\"https://www.life.church/vulnerability-disclosure-program/?utm_source=life_church&amp;utm_medium=footer_info&amp;utm_campaign=navigation\">Vulnerability Disclosure Program</a>&nbsp;{{consent_manager}}</p>\n\n<p>&copy; {{current_year}}&nbsp;Life.Church. All rights reserved.</p>\n",
+        "mgnl:comment": "updated UTM params",
+        "mgnl:lastModified": "2025-02-27T17:44:00.532+01:00",
+        "jcr:isCheckedOut": true,
+        "mgnl:lastModifiedBy": "alex.tran",
+        "jcr:versionHistory": "23ca7ddf-0375-4409-8f08-7c597de4bf6e",
+        "pageNavLinks": {
+          "0": {
+            "@name": "0",
+            "@path": "/Footer-Setting/pageNavLinks/0",
+            "@id": "01904c8f-18fb-485e-9f3f-333377730cf2",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "Watch",
+            "url": "https://www.life.church/media/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.527+01:00",
+            "jcr:created": "2025-02-27T17:44:37.138+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "mgnl:created": "2020-12-21T04:08:06.969Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "1": {
+            "@name": "1",
+            "@path": "/Footer-Setting/pageNavLinks/1",
+            "@id": "c02f4224-7dba-48bb-9f71-cf61dccd66e2",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "Locations",
+            "url": "https://www.life.church/locations/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.527+01:00",
+            "jcr:created": "2025-02-27T17:44:37.138+01:00",
+            "mgnl:created": "2020-12-21T04:08:06.972Z",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "2": {
+            "@name": "2",
+            "@path": "/Footer-Setting/pageNavLinks/2",
+            "@id": "c232963c-1e48-43b4-9603-b560563b5201",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "Give",
+            "url": "https://www.life.church/giving/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.528+01:00",
+            "jcr:created": "2025-02-27T17:44:37.138+01:00",
+            "mgnl:created": "2020-12-21T06:34:07.397Z",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "3": {
+            "@name": "3",
+            "@path": "/Footer-Setting/pageNavLinks/3",
+            "@id": "9809937f-1e44-47bb-8103-054fa8df703b",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "Tools",
+            "url": "https://www.life.church/tools/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.528+01:00",
+            "jcr:created": "2025-02-27T17:44:37.138+01:00",
+            "mgnl:created": "2020-12-21T06:34:07.403Z",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "4": {
+            "@name": "4",
+            "@path": "/Footer-Setting/pageNavLinks/4",
+            "@id": "3d941fd6-9c61-4496-8876-a53f1d6672c6",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "For Churches",
+            "url": "https://www.life.church/churches/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.528+01:00",
+            "jcr:created": "2025-02-27T17:44:37.139+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "mgnl:created": "2020-12-21T06:35:23.756Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "5": {
+            "@name": "5",
+            "@path": "/Footer-Setting/pageNavLinks/5",
+            "@id": "35e45f72-a24d-4bdd-8cd7-3f2e5dd9fd7b",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "Careers",
+            "url": "https://www.life.church/careers/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.528+01:00",
+            "jcr:created": "2025-02-27T17:44:37.139+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "mgnl:created": "2020-12-21T06:35:23.760Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "6": {
+            "@name": "6",
+            "@path": "/Footer-Setting/pageNavLinks/6",
+            "@id": "c4defadd-a3fd-460a-9ee1-0108a0d87bb1",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_blank",
+            "linkTitle": "Shop",
+            "url": "https://shop.life.church?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.528+01:00",
+            "jcr:created": "2025-02-27T17:44:37.139+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "mgnl:created": "2020-12-21T06:35:23.764Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "7": {
+            "@name": "7",
+            "@path": "/Footer-Setting/pageNavLinks/7",
+            "@id": "056b16e4-86bb-4547-8f46-fd1bb5afef5f",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "Contact Us",
+            "url": "https://www.life.church/contact/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.529+01:00",
+            "jcr:created": "2025-02-27T17:44:37.139+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "mgnl:created": "2020-12-21T06:35:23.766Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "@name": "pageNavLinks",
+          "@path": "/Footer-Setting/pageNavLinks",
+          "@id": "fc006082-f134-4bcc-9a10-399918c25617",
+          "@nodeType": "mgnl:contentNode",
+          "mgnl:createdBy": "superuser",
+          "jcr:createdBy": "admin",
+          "mgnl:lastModified": "2025-02-27T17:44:00.529+01:00",
+          "jcr:created": "2025-02-27T17:44:37.137+01:00",
+          "mgnl:created": "2020-12-21T04:02:15.432Z",
+          "mgnl:lastModifiedBy": "alex.tran",
+          "@nodes": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "@workspace": "footer"
+        },
+        "socialMediaLinks": {
+          "0": {
+            "@name": "0",
+            "@path": "/Footer-Setting/socialMediaLinks/0",
+            "@id": "828351cb-364c-4215-97fe-c699fb10c044",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "socialMediaType": "icon-facebook",
+            "mgnl:lastModified": "2025-02-27T17:44:00.531+01:00",
+            "jcr:created": "2025-02-27T17:44:37.140+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "socialMediaUrl": "https://www.facebook.com/life.church?utm_source=life_church&utm_medium=footer_social&utm_campaign=navigation",
+            "mgnl:created": "2020-12-21T04:49:01.521Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "1": {
+            "@name": "1",
+            "@path": "/Footer-Setting/socialMediaLinks/1",
+            "@id": "2f10049c-59b7-41de-9aea-ee6f11285709",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "socialMediaType": "icon-instagram",
+            "mgnl:lastModified": "2025-02-27T17:44:00.531+01:00",
+            "jcr:created": "2025-02-27T17:44:37.140+01:00",
+            "mgnl:created": "2020-12-21T04:49:01.525Z",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "socialMediaUrl": "https://instagram.com/life.church?utm_source=life_church&utm_medium=footer_social&utm_campaign=navigation",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "2": {
+            "@name": "2",
+            "@path": "/Footer-Setting/socialMediaLinks/2",
+            "@id": "a5272644-6c11-437a-8122-8c6e7ec1827b",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "cmichael",
+            "jcr:createdBy": "admin",
+            "socialMediaType": "icon-tiktok",
+            "mgnl:lastModified": "2025-02-27T17:44:00.532+01:00",
+            "jcr:created": "2025-02-27T17:44:37.140+01:00",
+            "mgnl:created": "2022-05-25T15:15:19.280Z",
+            "socialMediaUrl": "https://www.tiktok.com/@lifechurch?utm_source=life_church&utm_medium=footer_social&utm_campaign=navigation",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "3": {
+            "@name": "3",
+            "@path": "/Footer-Setting/socialMediaLinks/3",
+            "@id": "c096503c-088c-41ff-856b-e19456c16fce",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "socialMediaType": "icon-youtube",
+            "mgnl:lastModified": "2025-02-27T17:44:00.532+01:00",
+            "jcr:created": "2025-02-27T17:44:37.141+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "socialMediaUrl": "https://www.youtube.com/user/LifeChurchtv?utm_source=life_church&utm_medium=footer_social&utm_campaign=navigation",
+            "mgnl:created": "2020-12-21T04:49:01.528Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "4": {
+            "@name": "4",
+            "@path": "/Footer-Setting/socialMediaLinks/4",
+            "@id": "5f8bd22c-8797-46d9-b36a-7effda3f7f40",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "cmichael",
+            "jcr:createdBy": "admin",
+            "socialMediaType": "icon-linkedin",
+            "mgnl:lastModified": "2025-02-27T17:44:00.532+01:00",
+            "jcr:created": "2025-02-27T17:44:37.141+01:00",
+            "mgnl:created": "2022-05-25T15:15:19.282Z",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "socialMediaUrl": "https://www.linkedin.com/company/lifechurch/?utm_source=life_church&utm_medium=footer_social&utm_campaign=navigation",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "@name": "socialMediaLinks",
+          "@path": "/Footer-Setting/socialMediaLinks",
+          "@id": "5abcbe50-56aa-4941-8891-3cba8b995a34",
+          "@nodeType": "mgnl:contentNode",
+          "mgnl:createdBy": "superuser",
+          "jcr:createdBy": "admin",
+          "mgnl:lastModified": "2025-02-27T17:44:00.532+01:00",
+          "jcr:created": "2025-02-27T17:44:37.140+01:00",
+          "mgnl:lastModifiedBy": "alex.tran",
+          "mgnl:created": "2020-12-21T04:49:01.521Z",
+          "@nodes": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "@workspace": "footer"
+        },
+        "@nodes": [
+          "pageNavLinks",
+          "socialMediaLinks"
+        ],
+        "@workspace": "footer"
+      },
+      "menuData": [
+        {
+          "@name": "Media",
+          "@path": "/Media",
+          "@id": "81eb4d84-15e9-4135-bc6a-29d95018d493",
+          "@nodeType": "mgnl:content",
+          "name": "Media",
+          "openInNewTab": false,
+          "navigationExcerpt": "Find Messages, LifeGroups & Kids Content, Worship and more.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/Media/customLink",
+            "@id": "4e606b8f-68c6-4aa1-ad4c-e037f0271935",
+            "@nodeType": "mgnl:contentNode",
+            "external": "https://www.life.church/media/?utm_source=life_church&utm_medium=header&utm_campaign=navigation",
+            "field": "external",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        {
+          "@name": "Locations",
+          "@path": "/Locations",
+          "@id": "aee1a836-dad0-4361-9582-6b36bfa524f7",
+          "@nodeType": "mgnl:content",
+          "name": "Locations",
+          "openInNewTab": false,
+          "navigationExcerpt": "Find out more about our campuses located all over the US.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/Locations/customLink",
+            "@id": "a94f9213-4d06-456b-805e-2b09ec00cc0d",
+            "@nodeType": "mgnl:contentNode",
+            "field": "external",
+            "external": "https://www.life.church/locations/?utm_source=life_church&utm_medium=header&utm_campaign=navigation",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        {
+          "@name": "Give",
+          "@path": "/Give",
+          "@id": "fafcc1e4-2831-4d86-a2eb-ee7d0cb61ada",
+          "@nodeType": "mgnl:content",
+          "name": "Give",
+          "openInNewTab": false,
+          "navigationExcerpt": "Taking action on your generosity is simple. Find out how to give at Life.Church.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/Give/customLink",
+            "@id": "d760140b-cfb1-45fb-a2a7-9d582bde21f6",
+            "@nodeType": "mgnl:contentNode",
+            "external": "https://www.life.church/giving/?utm_source=life_church&utm_medium=header&utm_campaign=navigation",
+            "field": "external",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        {
+          "@name": "Who-We-Are",
+          "@path": "/Who-We-Are",
+          "@id": "5690e48a-4a2e-4f00-b823-fca46b870af0",
+          "@nodeType": "mgnl:content",
+          "name": "Who We Are",
+          "openInNewTab": false,
+          "navigationExcerpt": "Find out how we want to make a lasting difference in your life, our community, and the world.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/Who-We-Are/customLink",
+            "@id": "653589f6-ddc4-4123-98a4-8545ea56535e",
+            "@nodeType": "mgnl:contentNode",
+            "external": "https://www.life.church/who-we-are/?utm_source=life_church&utm_medium=header&utm_campaign=navigation",
+            "field": "external",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        {
+          "@name": "Worship",
+          "@path": "/Worship",
+          "@id": "75271e75-77f6-4f31-b996-62be7cf14ff5",
+          "@nodeType": "mgnl:content",
+          "name": "Worship",
+          "openInNewTab": false,
+          "navigationExcerpt": "Discover original Life.Church Worship music and connect with our team.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/Worship/customLink",
+            "@id": "95de42fe-e546-4432-9e5e-6f09785f84bc",
+            "@nodeType": "mgnl:contentNode",
+            "external": "https://www.life.church/worship/?utm_source=life_church&utm_medium=header&utm_campaign=navigation",
+            "field": "external",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        {
+          "@name": "menu",
+          "@path": "/menu",
+          "@id": "3db1edce-83f4-4f3f-8054-647c2349d956",
+          "@nodeType": "mgnl:folder",
+          "name": "menu",
+          "Ways-to-Connect": {
+            "@name": "Ways-to-Connect",
+            "@path": "/menu/Ways-to-Connect",
+            "@id": "f67a89bc-d301-4854-90db-ca52bff4cebd",
+            "@nodeType": "mgnl:folder",
+            "name": "Ways to Connect",
+            "Kids": {
+              "@name": "Kids",
+              "@path": "/menu/Ways-to-Connect/Kids",
+              "@id": "a11d5fd8-5132-4b0c-9d91-35e8243e4f68",
+              "@nodeType": "mgnl:content",
+              "name": "Kids",
+              "openInNewTab": false,
+              "navigationExcerpt": "Check out everything happening in LifeKids, our ministry for kids ages birth-6th grade.",
+              "customLink": {
+                "@name": "customLink",
+                "@path": "/menu/Ways-to-Connect/Kids/customLink",
+                "@id": "c45351b3-d59a-451e-a496-fdfff9e08223",
+                "@nodeType": "mgnl:contentNode",
+                "external": "https://www.life.church/kids/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+                "field": "external",
+                "@nodes": [],
+                "@workspace": "menu"
+              },
+              "@nodes": [
+                "customLink"
+              ],
+              "@workspace": "menu"
+            },
+            "Youth": {
+              "@name": "Youth",
+              "@path": "/menu/Ways-to-Connect/Youth",
+              "@id": "0c142343-6d26-46d0-b1cd-1e8ef15f0145",
+              "@nodeType": "mgnl:content",
+              "name": "Youth",
+              "openInNewTab": false,
+              "navigationExcerpt": "See how you can get involved in Switch, our student ministry for 6th-12th graders.",
+              "customLink": {
+                "@name": "customLink",
+                "@path": "/menu/Ways-to-Connect/Youth/customLink",
+                "@id": "7019f8b9-ed6f-4248-8b4b-33d1101dee1f",
+                "@nodeType": "mgnl:contentNode",
+                "external": "https://www.life.church/switch/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+                "field": "external",
+                "@nodes": [],
+                "@workspace": "menu"
+              },
+              "@nodes": [
+                "customLink"
+              ],
+              "@workspace": "menu"
+            },
+            "LifeGroups": {
+              "@name": "LifeGroups",
+              "@path": "/menu/Ways-to-Connect/LifeGroups",
+              "@id": "85ac0db8-d09f-4b4b-99cd-b07faad23195",
+              "@nodeType": "mgnl:content",
+              "name": "LifeGroups",
+              "openInNewTab": false,
+              "navigationExcerpt": "Find out how you can grow, laugh, and serve with other believers through a LifeGroup.",
+              "customLink": {
+                "@name": "customLink",
+                "@path": "/menu/Ways-to-Connect/LifeGroups/customLink",
+                "@id": "0ae0e9c1-214e-47b2-b589-fa98b609778f",
+                "@nodeType": "mgnl:contentNode",
+                "external": "https://www.life.church/lifegroups/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+                "field": "external",
+                "@nodes": [],
+                "@workspace": "menu"
+              },
+              "@nodes": [
+                "customLink"
+              ],
+              "@workspace": "menu"
+            },
+            "Missions": {
+              "@name": "Missions",
+              "@path": "/menu/Ways-to-Connect/Missions",
+              "@id": "8dc813b4-d37f-4399-bea4-34cdd2dbfe24",
+              "@nodeType": "mgnl:content",
+              "name": "Missions",
+              "openInNewTab": false,
+              "navigationExcerpt": "Show God’s love in your city and around the world through Global and Local Mission Partners.",
+              "customLink": {
+                "@name": "customLink",
+                "@path": "/menu/Ways-to-Connect/Missions/customLink",
+                "@id": "b2a2ebbd-3874-4aee-8f66-5fd09fc846dc",
+                "@nodeType": "mgnl:contentNode",
+                "field": "external",
+                "external": "https://www.life.church/missions/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+                "@nodes": [],
+                "@workspace": "menu"
+              },
+              "@nodes": [
+                "customLink"
+              ],
+              "@workspace": "menu"
+            },
+            "You-Said-Yes": {
+              "@name": "You-Said-Yes",
+              "@path": "/menu/Ways-to-Connect/You-Said-Yes",
+              "@id": "bf3bfc50-1440-4de4-a312-8ee41166807b",
+              "@nodeType": "mgnl:content",
+              "name": "You Said Yes",
+              "openInNewTab": false,
+              "navigationExcerpt": "If you recently said yes to following Jesus, we have free resources just for you.",
+              "customLink": {
+                "@name": "customLink",
+                "@path": "/menu/Ways-to-Connect/You-Said-Yes/customLink",
+                "@id": "d2858b6d-df49-478d-b114-157cd926ae34",
+                "@nodeType": "mgnl:contentNode",
+                "field": "external",
+                "external": "https://www.life.church/yes/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+                "@nodes": [],
+                "@workspace": "menu"
+              },
+              "@nodes": [
+                "customLink"
+              ],
+              "@workspace": "menu"
+            },
+            "Start-Serving": {
+              "@name": "Start-Serving",
+              "@path": "/menu/Ways-to-Connect/Start-Serving",
+              "@id": "5566019e-0469-48f9-9fc0-a9e376d79c56",
+              "@nodeType": "mgnl:content",
+              "name": "Start Serving",
+              "openInNewTab": false,
+              "navigationExcerpt": "God can use your gifts and skills to make a difference in the lives of others at Life.Church.",
+              "customLink": {
+                "@name": "customLink",
+                "@path": "/menu/Ways-to-Connect/Start-Serving/customLink",
+                "@id": "dc5ce516-7c6e-4427-84c2-b997ac6405c1",
+                "@nodeType": "mgnl:contentNode",
+                "external": "https://www.life.church/serving/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+                "field": "external",
+                "@nodes": [],
+                "@workspace": "menu"
+              },
+              "@nodes": [
+                "customLink"
+              ],
+              "@workspace": "menu"
+            },
+            "Grow-Your-Faith": {
+              "@name": "Grow-Your-Faith",
+              "@path": "/menu/Ways-to-Connect/Grow-Your-Faith",
+              "@id": "bdf93a1b-4989-4ccc-83ff-c2c5efe226e6",
+              "@nodeType": "mgnl:content",
+              "name": "Grow Your Faith",
+              "openInNewTab": false,
+              "navigationExcerpt": "Find tools, content, and guided journeys for going deeper in discipleship as you follow Jesus.",
+              "customLink": {
+                "@name": "customLink",
+                "@path": "/menu/Ways-to-Connect/Grow-Your-Faith/customLink",
+                "@id": "9530d7b3-1822-4b4b-87e9-de9cee732887",
+                "@nodeType": "mgnl:contentNode",
+                "external": "https://www.life.church/tools/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+                "field": "external",
+                "@nodes": [],
+                "@workspace": "menu"
+              },
+              "@nodes": [
+                "customLink"
+              ],
+              "@workspace": "menu"
+            },
+            "Careers": {
+              "@name": "Careers",
+              "@path": "/menu/Ways-to-Connect/Careers",
+              "@id": "d42133bf-630a-4888-9201-f82981f8bdc7",
+              "@nodeType": "mgnl:content",
+              "name": "Careers",
+              "openInNewTab": false,
+              "navigationExcerpt": "Find out what it’s like to work at Life.Church and explore all of our open roles.",
+              "customLink": {
+                "@name": "customLink",
+                "@path": "/menu/Ways-to-Connect/Careers/customLink",
+                "@id": "83b65ded-60c6-4ce0-b331-0b22356cd753",
+                "@nodeType": "mgnl:contentNode",
+                "external": "https://www.life.church/careers/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+                "field": "external",
+                "@nodes": [],
+                "@workspace": "menu"
+              },
+              "@nodes": [
+                "customLink"
+              ],
+              "@workspace": "menu"
+            },
+            "Store": {
+              "@name": "Store",
+              "@path": "/menu/Ways-to-Connect/Store",
+              "@id": "18b969c8-d9eb-43e1-8ed2-7abb261d6607",
+              "@nodeType": "mgnl:content",
+              "name": "Store",
+              "openInNewTab": true,
+              "navigationExcerpt": "Share some good news with Life.Church apparel. Find your favorites at our online store.",
+              "customLink": {
+                "@name": "customLink",
+                "@path": "/menu/Ways-to-Connect/Store/customLink",
+                "@id": "97f6c355-d59c-46a1-ac45-0f9846ac87d7",
+                "@nodeType": "mgnl:contentNode",
+                "external": "https://shop.life.church/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+                "field": "external",
+                "@nodes": [],
+                "@workspace": "menu"
+              },
+              "@nodes": [
+                "customLink"
+              ],
+              "@workspace": "menu"
+            },
+            "@nodes": [
+              "Kids",
+              "Youth",
+              "LifeGroups",
+              "Missions",
+              "You-Said-Yes",
+              "Start-Serving",
+              "Grow-Your-Faith",
+              "Careers",
+              "Store"
+            ],
+            "@workspace": "menu"
+          },
+          "About-Us": {
+            "@name": "About-Us",
+            "@path": "/menu/About-Us",
+            "@id": "63b9ed85-715f-4b0a-be60-74786e2e98ca",
+            "@nodeType": "mgnl:folder",
+            "name": "About Us",
+            "Our-Beliefs": {
+              "@name": "Our-Beliefs",
+              "@path": "/menu/About-Us/Our-Beliefs",
+              "@id": "b34121ed-72c1-469e-8e61-e4ebf1aafe78",
+              "@nodeType": "mgnl:content",
+              "name": "Our Beliefs",
+              "openInNewTab": false,
+              "navigationExcerpt": "Learn more about what we believe as fully devoted followers of Christ.",
+              "customLink": {
+                "@name": "customLink",
+                "@path": "/menu/About-Us/Our-Beliefs/customLink",
+                "@id": "6ffa96c6-1d55-4690-9104-9d704e61686b",
+                "@nodeType": "mgnl:contentNode",
+                "field": "external",
+                "external": "https://www.life.church/who-we-are/our-beliefs/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+                "@nodes": [],
+                "@workspace": "menu"
+              },
+              "@nodes": [
+                "customLink"
+              ],
+              "@workspace": "menu"
+            },
+            "What-to-Expect": {
+              "@name": "What-to-Expect",
+              "@path": "/menu/About-Us/What-to-Expect",
+              "@id": "86b5b831-8fc1-42e3-a8fc-805027a02ddd",
+              "@nodeType": "mgnl:content",
+              "name": "What to Expect",
+              "openInNewTab": false,
+              "navigationExcerpt": "Visiting for the first time? We want you to know what you’ll find at Life.Church.",
+              "customLink": {
+                "@name": "customLink",
+                "@path": "/menu/About-Us/What-to-Expect/customLink",
+                "@id": "fc7ccaee-5e2e-4b32-b066-2e16a535bb97",
+                "@nodeType": "mgnl:contentNode",
+                "field": "external",
+                "external": "https://www.life.church/who-we-are/what-to-expect/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+                "@nodes": [],
+                "@workspace": "menu"
+              },
+              "@nodes": [
+                "customLink"
+              ],
+              "@workspace": "menu"
+            },
+            "For-Churches": {
+              "@name": "For-Churches",
+              "@path": "/menu/About-Us/For-Churches",
+              "@id": "e0b6b052-ec3d-47e3-94ba-751880afd88d",
+              "@nodeType": "mgnl:content",
+              "name": "For Churches",
+              "openInNewTab": false,
+              "navigationExcerpt": "Find free tools and resources created by Life.Church for churches around the world.",
+              "customLink": {
+                "@name": "customLink",
+                "@path": "/menu/About-Us/For-Churches/customLink",
+                "@id": "6dbb617e-3957-41e3-bc82-f1559946b019",
+                "@nodeType": "mgnl:contentNode",
+                "external": "https://www.life.church/churches/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+                "field": "external",
+                "@nodes": [],
+                "@workspace": "menu"
+              },
+              "@nodes": [
+                "customLink"
+              ],
+              "@workspace": "menu"
+            },
+            "Contact-Us": {
+              "@name": "Contact-Us",
+              "@path": "/menu/About-Us/Contact-Us",
+              "@id": "a1ffc984-a755-4333-93f3-599c0f78559c",
+              "@nodeType": "mgnl:content",
+              "name": "Contact Us",
+              "openInNewTab": false,
+              "navigationExcerpt": "We love to hear from the great people who visit and attend Life.Church.",
+              "customLink": {
+                "@name": "customLink",
+                "@path": "/menu/About-Us/Contact-Us/customLink",
+                "@id": "9771e919-1fab-4213-ac55-0d0e48fcbb4c",
+                "@nodeType": "mgnl:contentNode",
+                "field": "external",
+                "external": "https://www.life.church/contact/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+                "@nodes": [],
+                "@workspace": "menu"
+              },
+              "@nodes": [
+                "customLink"
+              ],
+              "@workspace": "menu"
+            },
+            "@nodes": [
+              "Our-Beliefs",
+              "What-to-Expect",
+              "For-Churches",
+              "Contact-Us"
+            ],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "Ways-to-Connect",
+            "About-Us"
+          ],
+          "@workspace": "menu"
+        }
+      ],
+      "navBar": [
+        {
+          "@name": "missions",
+          "@path": "/missions",
+          "@id": "3e96de4b-0f5d-400d-a230-c0c094bfc50f",
+          "@nodeType": "mgnl:page",
+          "parentLabelNavBar": "Missions",
+          "facebook_og_image_public": "https://cms-images.life.church/lc-site/open-graph-images/missions-facebook-e6d7197f3cf9dcfde39ea42502a7910208eb9cb66798855f9c8cef448014d494.jpeg",
+          "hideParentLabel": false,
+          "title": "Missions",
+          "hideInSubNav": false,
+          "displayNavBar": "true",
+          "twitter_og_image_public": "https://cms-images.life.church/lc-site/open-graph-images/missions-twitter-5c1f77842360c526f4b3a442ee53bc4bc6933d781444609059b4f967c30b3412.jpeg",
+          "hideInNav": false,
+          "facebook_og_image": "https://cms-images.life.church/lc-site/open-graph-images/missions-facebook-e6d7197f3cf9dcfde39ea42502a7910208eb9cb66798855f9c8cef448014d494.jpeg",
+          "noFollow": false,
+          "field": "parentPage",
+          "navigationTitle": "About Missions",
+          "seoDescription": "We are dedicated to bringing hope and healing to people everywhere. See how you play a key role in relief and restoration work through our Global and Local Mission Partners.",
+          "colorTheme": "teal",
+          "twitter_og_image": "https://cms-images.life.church/lc-site/open-graph-images/missions-twitter-5c1f77842360c526f4b3a442ee53bc4bc6933d781444609059b4f967c30b3412.jpeg",
+          "noIndex": false,
+          "global": {
+            "@name": "global",
+            "@path": "/missions/global",
+            "@id": "7a68a812-0552-4984-8d08-8359da01ccc9",
+            "@nodeType": "mgnl:page",
+            "hideParentLabel": false,
+            "title": "Global Missions",
+            "displayNavBar": "true",
+            "hideInNav": false,
+            "noFollow": false,
+            "field": "childPage",
+            "navigationTitle": "Global Missions",
+            "seoDescription": "With your help, we’re sharing His love. Life.Church is committed to translating God’s Word into every language, supporting people in crisis, and equipping churches to transform their communities.",
+            "colorTheme": "teal",
+            "noIndex": false,
+            "trafficking": {
+              "@name": "trafficking",
+              "@path": "/missions/global/trafficking",
+              "@id": "ff6c2393-24a6-4d3f-9d8f-6f225c5e8d72",
+              "@nodeType": "mgnl:page",
+              "hideParentLabel": false,
+              "facebook_og_image_public": "https://cms-images.life.church/lc-site/2022/og-trafficking.jpg",
+              "title": "Help End Human Trafficking",
+              "displayNavBar": "false",
+              "twitter_og_image_public": "https://cms-images.life.church/lc-site/2022/og-twitter-trafficking.jpg",
+              "hideInNav": false,
+              "noFollow": false,
+              "facebook_og_image": "https://cms-images.life.church/lc-site/2022/og-trafficking.jpg",
+              "field": "childPage",
+              "navigationTitle": "Test",
+              "colorTheme": "teal",
+              "seoDescription": "Learn practical ways you can help end slavery forever.",
+              "twitter_og_image": "https://cms-images.life.church/lc-site/2022/og-twitter-trafficking.jpg",
+              "noIndex": false,
+              "@nodes": [],
+              "@workspace": "website"
+            },
+            "@nodes": [
+              "trafficking"
+            ],
+            "@workspace": "website"
+          },
+          "local": {
+            "@name": "local",
+            "@path": "/missions/local",
+            "@id": "989ff763-f591-44da-92bd-62895c889b3b",
+            "@nodeType": "mgnl:page",
+            "hideParentLabel": false,
+            "facebook_og_image_public": "https://cms-images.life.church/lc-site/open-graph-images/local-facebook.jpeg",
+            "title": "Local Missions",
+            "displayNavBar": "true",
+            "twitter_og_image_public": "https://cms-images.life.church/lc-site/open-graph-images/local-twitter.jpeg",
+            "facebook_og_image": "https://cms-images.life.church/lc-site/open-graph-images/local-facebook.jpeg",
+            "hideInNav": false,
+            "noFollow": false,
+            "field": "childPage",
+            "navigationTitle": "Local Missions",
+            "seoDescription": "As you pursue God's calling on your life, we want to help you take action on the causes you care about most.",
+            "colorTheme": "teal",
+            "twitter_og_image": "https://cms-images.life.church/lc-site/open-graph-images/local-twitter.jpeg",
+            "noIndex": false,
+            "@nodes": [],
+            "@workspace": "website"
+          },
+          "update": {
+            "@name": "update",
+            "@path": "/missions/update",
+            "@id": "b144a629-b3c9-47f0-9bfb-249afda36d76",
+            "@nodeType": "mgnl:page",
+            "displayNavBar": "true",
+            "hideParentLabel": false,
+            "noFollow": true,
+            "navigationTitle": "Missions Update",
+            "noIndex": true,
+            "title": "Missions Update",
+            "hideInSubNav": false,
+            "archive": {
+              "@name": "archive",
+              "@path": "/missions/update/archive",
+              "@id": "fe064e23-be12-4073-a6cc-b87554b0e424",
+              "@nodeType": "mgnl:page",
+              "redirectStatus": "301",
+              "redirectUrlTypeinternal": "b144a629-b3c9-47f0-9bfb-249afda36d76",
+              "redirectUrlType": "internal",
+              "redirectUrlTypeexternal": "https://www.life.church/missions-preview/update/",
+              "@nodes": [],
+              "@workspace": "website"
+            },
+            "@nodes": [
+              "archive"
+            ],
+            "@workspace": "website"
+          },
+          "@nodes": [
+            "global",
+            "local",
+            "update"
+          ],
+          "@workspace": "website"
+        }
+      ]
+    }
+  },
+  "footerData": {
+    "total": 1,
+    "offset": 0,
+    "limit": 10,
+    "results": [
+      {
+        "@name": "Footer-Setting",
+        "@path": "/Footer-Setting",
+        "@id": "f84c8ffd-7d41-4c72-8d04-f75024397663",
+        "@nodeType": "mgnl:content",
+        "jcr:createdBy": "admin",
+        "name": "Footer Setting",
+        "leftContent": "<p>Join us at&nbsp;<a href=\"http://live.life.church/\" target=\"_blank\">Church Online</a>&nbsp;or a&nbsp;<a href=\"https://www.life.church/locations\">Life.Church location</a>.</p>\n\n<p>&copy; 2020 Life.Church. All rights reserved.&nbsp;<a href=\"https://www.life.church/privacy/\">Privacy Policy</a>&nbsp;|&nbsp;<a href=\"https://www.life.church/terms/\">Terms of Use</a></p>\n",
+        "jcr:mixinTypes": [
+          "mix:versionable",
+          "mgnl:hasVersion"
+        ],
+        "jcr:created": "2021-07-09T21:03:11.281Z",
+        "mgnl:created": "2020-12-18T13:38:22.381Z",
+        "mgnl:createdBy": "superuser",
+        "jcr:predecessors": [
+          "2e786ed2-9ef1-4dba-9c0b-094a7320a116"
+        ],
+        "jcr:baseVersion": "2e786ed2-9ef1-4dba-9c0b-094a7320a116",
+        "policyContent": "<p>Attend&nbsp;<a href=\"https://live.life.church?utm_source=life_church&amp;utm_medium=footer_info&amp;utm_campaign=navigation\" target=\"_blank\">Life.Church Online</a>&nbsp;or a&nbsp;<a href=\"https://www.life.church/locations/?utm_source=life_church&amp;utm_medium=footer_info&amp;utm_campaign=navigation\">Life.Church location</a>.</p>\n\n<p><a href=\"https://www.life.church/privacy/?utm_source=life_church&amp;utm_medium=footer_info&amp;utm_campaign=navigation\">Privacy Policy</a>&nbsp;|&nbsp;<a href=\"https://www.life.church/terms/?utm_source=life_church&amp;utm_medium=footer_info&amp;utm_campaign=navigation\">Terms of Use</a>&nbsp;|&nbsp;<a href=\"https://www.life.church/vulnerability-disclosure-program/?utm_source=life_church&amp;utm_medium=footer_info&amp;utm_campaign=navigation\">Vulnerability Disclosure Program</a>&nbsp;{{consent_manager}}</p>\n\n<p>&copy; {{current_year}}&nbsp;Life.Church. All rights reserved.</p>\n",
+        "mgnl:comment": "updated UTM params",
+        "mgnl:lastModified": "2025-02-27T17:44:00.532+01:00",
+        "jcr:isCheckedOut": true,
+        "mgnl:lastModifiedBy": "alex.tran",
+        "jcr:versionHistory": "23ca7ddf-0375-4409-8f08-7c597de4bf6e",
+        "pageNavLinks": {
+          "0": {
+            "@name": "0",
+            "@path": "/Footer-Setting/pageNavLinks/0",
+            "@id": "01904c8f-18fb-485e-9f3f-333377730cf2",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "Watch",
+            "url": "https://www.life.church/media/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.527+01:00",
+            "jcr:created": "2025-02-27T17:44:37.138+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "mgnl:created": "2020-12-21T04:08:06.969Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "1": {
+            "@name": "1",
+            "@path": "/Footer-Setting/pageNavLinks/1",
+            "@id": "c02f4224-7dba-48bb-9f71-cf61dccd66e2",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "Locations",
+            "url": "https://www.life.church/locations/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.527+01:00",
+            "jcr:created": "2025-02-27T17:44:37.138+01:00",
+            "mgnl:created": "2020-12-21T04:08:06.972Z",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "2": {
+            "@name": "2",
+            "@path": "/Footer-Setting/pageNavLinks/2",
+            "@id": "c232963c-1e48-43b4-9603-b560563b5201",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "Give",
+            "url": "https://www.life.church/giving/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.528+01:00",
+            "jcr:created": "2025-02-27T17:44:37.138+01:00",
+            "mgnl:created": "2020-12-21T06:34:07.397Z",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "3": {
+            "@name": "3",
+            "@path": "/Footer-Setting/pageNavLinks/3",
+            "@id": "9809937f-1e44-47bb-8103-054fa8df703b",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "Tools",
+            "url": "https://www.life.church/tools/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.528+01:00",
+            "jcr:created": "2025-02-27T17:44:37.138+01:00",
+            "mgnl:created": "2020-12-21T06:34:07.403Z",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "4": {
+            "@name": "4",
+            "@path": "/Footer-Setting/pageNavLinks/4",
+            "@id": "3d941fd6-9c61-4496-8876-a53f1d6672c6",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "For Churches",
+            "url": "https://www.life.church/churches/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.528+01:00",
+            "jcr:created": "2025-02-27T17:44:37.139+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "mgnl:created": "2020-12-21T06:35:23.756Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "5": {
+            "@name": "5",
+            "@path": "/Footer-Setting/pageNavLinks/5",
+            "@id": "35e45f72-a24d-4bdd-8cd7-3f2e5dd9fd7b",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "Careers",
+            "url": "https://www.life.church/careers/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.528+01:00",
+            "jcr:created": "2025-02-27T17:44:37.139+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "mgnl:created": "2020-12-21T06:35:23.760Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "6": {
+            "@name": "6",
+            "@path": "/Footer-Setting/pageNavLinks/6",
+            "@id": "c4defadd-a3fd-460a-9ee1-0108a0d87bb1",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_blank",
+            "linkTitle": "Shop",
+            "url": "https://shop.life.church?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.528+01:00",
+            "jcr:created": "2025-02-27T17:44:37.139+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "mgnl:created": "2020-12-21T06:35:23.764Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "7": {
+            "@name": "7",
+            "@path": "/Footer-Setting/pageNavLinks/7",
+            "@id": "056b16e4-86bb-4547-8f46-fd1bb5afef5f",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "target": "_self",
+            "linkTitle": "Contact Us",
+            "url": "https://www.life.church/contact/?utm_source=life_church&utm_medium=footer&utm_campaign=navigation",
+            "mgnl:lastModified": "2025-02-27T17:44:00.529+01:00",
+            "jcr:created": "2025-02-27T17:44:37.139+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "mgnl:created": "2020-12-21T06:35:23.766Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "@name": "pageNavLinks",
+          "@path": "/Footer-Setting/pageNavLinks",
+          "@id": "fc006082-f134-4bcc-9a10-399918c25617",
+          "@nodeType": "mgnl:contentNode",
+          "mgnl:createdBy": "superuser",
+          "jcr:createdBy": "admin",
+          "mgnl:lastModified": "2025-02-27T17:44:00.529+01:00",
+          "jcr:created": "2025-02-27T17:44:37.137+01:00",
+          "mgnl:created": "2020-12-21T04:02:15.432Z",
+          "mgnl:lastModifiedBy": "alex.tran",
+          "@nodes": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "@workspace": "footer"
+        },
+        "socialMediaLinks": {
+          "0": {
+            "@name": "0",
+            "@path": "/Footer-Setting/socialMediaLinks/0",
+            "@id": "828351cb-364c-4215-97fe-c699fb10c044",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "socialMediaType": "icon-facebook",
+            "mgnl:lastModified": "2025-02-27T17:44:00.531+01:00",
+            "jcr:created": "2025-02-27T17:44:37.140+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "socialMediaUrl": "https://www.facebook.com/life.church?utm_source=life_church&utm_medium=footer_social&utm_campaign=navigation",
+            "mgnl:created": "2020-12-21T04:49:01.521Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "1": {
+            "@name": "1",
+            "@path": "/Footer-Setting/socialMediaLinks/1",
+            "@id": "2f10049c-59b7-41de-9aea-ee6f11285709",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "socialMediaType": "icon-instagram",
+            "mgnl:lastModified": "2025-02-27T17:44:00.531+01:00",
+            "jcr:created": "2025-02-27T17:44:37.140+01:00",
+            "mgnl:created": "2020-12-21T04:49:01.525Z",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "socialMediaUrl": "https://instagram.com/life.church?utm_source=life_church&utm_medium=footer_social&utm_campaign=navigation",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "2": {
+            "@name": "2",
+            "@path": "/Footer-Setting/socialMediaLinks/2",
+            "@id": "a5272644-6c11-437a-8122-8c6e7ec1827b",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "cmichael",
+            "jcr:createdBy": "admin",
+            "socialMediaType": "icon-tiktok",
+            "mgnl:lastModified": "2025-02-27T17:44:00.532+01:00",
+            "jcr:created": "2025-02-27T17:44:37.140+01:00",
+            "mgnl:created": "2022-05-25T15:15:19.280Z",
+            "socialMediaUrl": "https://www.tiktok.com/@lifechurch?utm_source=life_church&utm_medium=footer_social&utm_campaign=navigation",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "3": {
+            "@name": "3",
+            "@path": "/Footer-Setting/socialMediaLinks/3",
+            "@id": "c096503c-088c-41ff-856b-e19456c16fce",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "superuser",
+            "jcr:createdBy": "admin",
+            "socialMediaType": "icon-youtube",
+            "mgnl:lastModified": "2025-02-27T17:44:00.532+01:00",
+            "jcr:created": "2025-02-27T17:44:37.141+01:00",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "socialMediaUrl": "https://www.youtube.com/user/LifeChurchtv?utm_source=life_church&utm_medium=footer_social&utm_campaign=navigation",
+            "mgnl:created": "2020-12-21T04:49:01.528Z",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "4": {
+            "@name": "4",
+            "@path": "/Footer-Setting/socialMediaLinks/4",
+            "@id": "5f8bd22c-8797-46d9-b36a-7effda3f7f40",
+            "@nodeType": "mgnl:contentNode",
+            "mgnl:createdBy": "cmichael",
+            "jcr:createdBy": "admin",
+            "socialMediaType": "icon-linkedin",
+            "mgnl:lastModified": "2025-02-27T17:44:00.532+01:00",
+            "jcr:created": "2025-02-27T17:44:37.141+01:00",
+            "mgnl:created": "2022-05-25T15:15:19.282Z",
+            "mgnl:lastModifiedBy": "alex.tran",
+            "socialMediaUrl": "https://www.linkedin.com/company/lifechurch/?utm_source=life_church&utm_medium=footer_social&utm_campaign=navigation",
+            "@nodes": [],
+            "@workspace": "footer"
+          },
+          "@name": "socialMediaLinks",
+          "@path": "/Footer-Setting/socialMediaLinks",
+          "@id": "5abcbe50-56aa-4941-8891-3cba8b995a34",
+          "@nodeType": "mgnl:contentNode",
+          "mgnl:createdBy": "superuser",
+          "jcr:createdBy": "admin",
+          "mgnl:lastModified": "2025-02-27T17:44:00.532+01:00",
+          "jcr:created": "2025-02-27T17:44:37.140+01:00",
+          "mgnl:lastModifiedBy": "alex.tran",
+          "mgnl:created": "2020-12-21T04:49:01.521Z",
+          "@nodes": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "@workspace": "footer"
+        },
+        "@nodes": [
+          "pageNavLinks",
+          "socialMediaLinks"
+        ],
+        "@workspace": "footer"
+      }
+    ]
+  },
+  "menuData": [
+    {
+      "@name": "Media",
+      "@path": "/Media",
+      "@id": "81eb4d84-15e9-4135-bc6a-29d95018d493",
+      "@nodeType": "mgnl:content",
+      "name": "Media",
+      "openInNewTab": false,
+      "navigationExcerpt": "Find Messages, LifeGroups & Kids Content, Worship and more.",
+      "customLink": {
+        "@name": "customLink",
+        "@path": "/Media/customLink",
+        "@id": "4e606b8f-68c6-4aa1-ad4c-e037f0271935",
+        "@nodeType": "mgnl:contentNode",
+        "external": "https://www.life.church/media/?utm_source=life_church&utm_medium=header&utm_campaign=navigation",
+        "field": "external",
+        "@nodes": [],
+        "@workspace": "menu"
+      },
+      "@nodes": [
+        "customLink"
+      ],
+      "@workspace": "menu"
+    },
+    {
+      "@name": "Locations",
+      "@path": "/Locations",
+      "@id": "aee1a836-dad0-4361-9582-6b36bfa524f7",
+      "@nodeType": "mgnl:content",
+      "name": "Locations",
+      "openInNewTab": false,
+      "navigationExcerpt": "Find out more about our campuses located all over the US.",
+      "customLink": {
+        "@name": "customLink",
+        "@path": "/Locations/customLink",
+        "@id": "a94f9213-4d06-456b-805e-2b09ec00cc0d",
+        "@nodeType": "mgnl:contentNode",
+        "field": "external",
+        "external": "https://www.life.church/locations/?utm_source=life_church&utm_medium=header&utm_campaign=navigation",
+        "@nodes": [],
+        "@workspace": "menu"
+      },
+      "@nodes": [
+        "customLink"
+      ],
+      "@workspace": "menu"
+    },
+    {
+      "@name": "Give",
+      "@path": "/Give",
+      "@id": "fafcc1e4-2831-4d86-a2eb-ee7d0cb61ada",
+      "@nodeType": "mgnl:content",
+      "name": "Give",
+      "openInNewTab": false,
+      "navigationExcerpt": "Taking action on your generosity is simple. Find out how to give at Life.Church.",
+      "customLink": {
+        "@name": "customLink",
+        "@path": "/Give/customLink",
+        "@id": "d760140b-cfb1-45fb-a2a7-9d582bde21f6",
+        "@nodeType": "mgnl:contentNode",
+        "external": "https://www.life.church/giving/?utm_source=life_church&utm_medium=header&utm_campaign=navigation",
+        "field": "external",
+        "@nodes": [],
+        "@workspace": "menu"
+      },
+      "@nodes": [
+        "customLink"
+      ],
+      "@workspace": "menu"
+    },
+    {
+      "@name": "Who-We-Are",
+      "@path": "/Who-We-Are",
+      "@id": "5690e48a-4a2e-4f00-b823-fca46b870af0",
+      "@nodeType": "mgnl:content",
+      "name": "Who We Are",
+      "openInNewTab": false,
+      "navigationExcerpt": "Find out how we want to make a lasting difference in your life, our community, and the world.",
+      "customLink": {
+        "@name": "customLink",
+        "@path": "/Who-We-Are/customLink",
+        "@id": "653589f6-ddc4-4123-98a4-8545ea56535e",
+        "@nodeType": "mgnl:contentNode",
+        "external": "https://www.life.church/who-we-are/?utm_source=life_church&utm_medium=header&utm_campaign=navigation",
+        "field": "external",
+        "@nodes": [],
+        "@workspace": "menu"
+      },
+      "@nodes": [
+        "customLink"
+      ],
+      "@workspace": "menu"
+    },
+    {
+      "@name": "Worship",
+      "@path": "/Worship",
+      "@id": "75271e75-77f6-4f31-b996-62be7cf14ff5",
+      "@nodeType": "mgnl:content",
+      "name": "Worship",
+      "openInNewTab": false,
+      "navigationExcerpt": "Discover original Life.Church Worship music and connect with our team.",
+      "customLink": {
+        "@name": "customLink",
+        "@path": "/Worship/customLink",
+        "@id": "95de42fe-e546-4432-9e5e-6f09785f84bc",
+        "@nodeType": "mgnl:contentNode",
+        "external": "https://www.life.church/worship/?utm_source=life_church&utm_medium=header&utm_campaign=navigation",
+        "field": "external",
+        "@nodes": [],
+        "@workspace": "menu"
+      },
+      "@nodes": [
+        "customLink"
+      ],
+      "@workspace": "menu"
+    },
+    {
+      "@name": "menu",
+      "@path": "/menu",
+      "@id": "3db1edce-83f4-4f3f-8054-647c2349d956",
+      "@nodeType": "mgnl:folder",
+      "name": "menu",
+      "Ways-to-Connect": {
+        "@name": "Ways-to-Connect",
+        "@path": "/menu/Ways-to-Connect",
+        "@id": "f67a89bc-d301-4854-90db-ca52bff4cebd",
+        "@nodeType": "mgnl:folder",
+        "name": "Ways to Connect",
+        "Kids": {
+          "@name": "Kids",
+          "@path": "/menu/Ways-to-Connect/Kids",
+          "@id": "a11d5fd8-5132-4b0c-9d91-35e8243e4f68",
+          "@nodeType": "mgnl:content",
+          "name": "Kids",
+          "openInNewTab": false,
+          "navigationExcerpt": "Check out everything happening in LifeKids, our ministry for kids ages birth-6th grade.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/menu/Ways-to-Connect/Kids/customLink",
+            "@id": "c45351b3-d59a-451e-a496-fdfff9e08223",
+            "@nodeType": "mgnl:contentNode",
+            "external": "https://www.life.church/kids/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+            "field": "external",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        "Youth": {
+          "@name": "Youth",
+          "@path": "/menu/Ways-to-Connect/Youth",
+          "@id": "0c142343-6d26-46d0-b1cd-1e8ef15f0145",
+          "@nodeType": "mgnl:content",
+          "name": "Youth",
+          "openInNewTab": false,
+          "navigationExcerpt": "See how you can get involved in Switch, our student ministry for 6th-12th graders.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/menu/Ways-to-Connect/Youth/customLink",
+            "@id": "7019f8b9-ed6f-4248-8b4b-33d1101dee1f",
+            "@nodeType": "mgnl:contentNode",
+            "external": "https://www.life.church/switch/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+            "field": "external",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        "LifeGroups": {
+          "@name": "LifeGroups",
+          "@path": "/menu/Ways-to-Connect/LifeGroups",
+          "@id": "85ac0db8-d09f-4b4b-99cd-b07faad23195",
+          "@nodeType": "mgnl:content",
+          "name": "LifeGroups",
+          "openInNewTab": false,
+          "navigationExcerpt": "Find out how you can grow, laugh, and serve with other believers through a LifeGroup.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/menu/Ways-to-Connect/LifeGroups/customLink",
+            "@id": "0ae0e9c1-214e-47b2-b589-fa98b609778f",
+            "@nodeType": "mgnl:contentNode",
+            "external": "https://www.life.church/lifegroups/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+            "field": "external",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        "Missions": {
+          "@name": "Missions",
+          "@path": "/menu/Ways-to-Connect/Missions",
+          "@id": "8dc813b4-d37f-4399-bea4-34cdd2dbfe24",
+          "@nodeType": "mgnl:content",
+          "name": "Missions",
+          "openInNewTab": false,
+          "navigationExcerpt": "Show God’s love in your city and around the world through Global and Local Mission Partners.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/menu/Ways-to-Connect/Missions/customLink",
+            "@id": "b2a2ebbd-3874-4aee-8f66-5fd09fc846dc",
+            "@nodeType": "mgnl:contentNode",
+            "field": "external",
+            "external": "https://www.life.church/missions/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        "You-Said-Yes": {
+          "@name": "You-Said-Yes",
+          "@path": "/menu/Ways-to-Connect/You-Said-Yes",
+          "@id": "bf3bfc50-1440-4de4-a312-8ee41166807b",
+          "@nodeType": "mgnl:content",
+          "name": "You Said Yes",
+          "openInNewTab": false,
+          "navigationExcerpt": "If you recently said yes to following Jesus, we have free resources just for you.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/menu/Ways-to-Connect/You-Said-Yes/customLink",
+            "@id": "d2858b6d-df49-478d-b114-157cd926ae34",
+            "@nodeType": "mgnl:contentNode",
+            "field": "external",
+            "external": "https://www.life.church/yes/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        "Start-Serving": {
+          "@name": "Start-Serving",
+          "@path": "/menu/Ways-to-Connect/Start-Serving",
+          "@id": "5566019e-0469-48f9-9fc0-a9e376d79c56",
+          "@nodeType": "mgnl:content",
+          "name": "Start Serving",
+          "openInNewTab": false,
+          "navigationExcerpt": "God can use your gifts and skills to make a difference in the lives of others at Life.Church.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/menu/Ways-to-Connect/Start-Serving/customLink",
+            "@id": "dc5ce516-7c6e-4427-84c2-b997ac6405c1",
+            "@nodeType": "mgnl:contentNode",
+            "external": "https://www.life.church/serving/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+            "field": "external",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        "Grow-Your-Faith": {
+          "@name": "Grow-Your-Faith",
+          "@path": "/menu/Ways-to-Connect/Grow-Your-Faith",
+          "@id": "bdf93a1b-4989-4ccc-83ff-c2c5efe226e6",
+          "@nodeType": "mgnl:content",
+          "name": "Grow Your Faith",
+          "openInNewTab": false,
+          "navigationExcerpt": "Find tools, content, and guided journeys for going deeper in discipleship as you follow Jesus.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/menu/Ways-to-Connect/Grow-Your-Faith/customLink",
+            "@id": "9530d7b3-1822-4b4b-87e9-de9cee732887",
+            "@nodeType": "mgnl:contentNode",
+            "external": "https://www.life.church/tools/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+            "field": "external",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        "Careers": {
+          "@name": "Careers",
+          "@path": "/menu/Ways-to-Connect/Careers",
+          "@id": "d42133bf-630a-4888-9201-f82981f8bdc7",
+          "@nodeType": "mgnl:content",
+          "name": "Careers",
+          "openInNewTab": false,
+          "navigationExcerpt": "Find out what it’s like to work at Life.Church and explore all of our open roles.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/menu/Ways-to-Connect/Careers/customLink",
+            "@id": "83b65ded-60c6-4ce0-b331-0b22356cd753",
+            "@nodeType": "mgnl:contentNode",
+            "external": "https://www.life.church/careers/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+            "field": "external",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        "Store": {
+          "@name": "Store",
+          "@path": "/menu/Ways-to-Connect/Store",
+          "@id": "18b969c8-d9eb-43e1-8ed2-7abb261d6607",
+          "@nodeType": "mgnl:content",
+          "name": "Store",
+          "openInNewTab": true,
+          "navigationExcerpt": "Share some good news with Life.Church apparel. Find your favorites at our online store.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/menu/Ways-to-Connect/Store/customLink",
+            "@id": "97f6c355-d59c-46a1-ac45-0f9846ac87d7",
+            "@nodeType": "mgnl:contentNode",
+            "external": "https://shop.life.church/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+            "field": "external",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        "@nodes": [
+          "Kids",
+          "Youth",
+          "LifeGroups",
+          "Missions",
+          "You-Said-Yes",
+          "Start-Serving",
+          "Grow-Your-Faith",
+          "Careers",
+          "Store"
+        ],
+        "@workspace": "menu"
+      },
+      "About-Us": {
+        "@name": "About-Us",
+        "@path": "/menu/About-Us",
+        "@id": "63b9ed85-715f-4b0a-be60-74786e2e98ca",
+        "@nodeType": "mgnl:folder",
+        "name": "About Us",
+        "Our-Beliefs": {
+          "@name": "Our-Beliefs",
+          "@path": "/menu/About-Us/Our-Beliefs",
+          "@id": "b34121ed-72c1-469e-8e61-e4ebf1aafe78",
+          "@nodeType": "mgnl:content",
+          "name": "Our Beliefs",
+          "openInNewTab": false,
+          "navigationExcerpt": "Learn more about what we believe as fully devoted followers of Christ.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/menu/About-Us/Our-Beliefs/customLink",
+            "@id": "6ffa96c6-1d55-4690-9104-9d704e61686b",
+            "@nodeType": "mgnl:contentNode",
+            "field": "external",
+            "external": "https://www.life.church/who-we-are/our-beliefs/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        "What-to-Expect": {
+          "@name": "What-to-Expect",
+          "@path": "/menu/About-Us/What-to-Expect",
+          "@id": "86b5b831-8fc1-42e3-a8fc-805027a02ddd",
+          "@nodeType": "mgnl:content",
+          "name": "What to Expect",
+          "openInNewTab": false,
+          "navigationExcerpt": "Visiting for the first time? We want you to know what you’ll find at Life.Church.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/menu/About-Us/What-to-Expect/customLink",
+            "@id": "fc7ccaee-5e2e-4b32-b066-2e16a535bb97",
+            "@nodeType": "mgnl:contentNode",
+            "field": "external",
+            "external": "https://www.life.church/who-we-are/what-to-expect/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        "For-Churches": {
+          "@name": "For-Churches",
+          "@path": "/menu/About-Us/For-Churches",
+          "@id": "e0b6b052-ec3d-47e3-94ba-751880afd88d",
+          "@nodeType": "mgnl:content",
+          "name": "For Churches",
+          "openInNewTab": false,
+          "navigationExcerpt": "Find free tools and resources created by Life.Church for churches around the world.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/menu/About-Us/For-Churches/customLink",
+            "@id": "6dbb617e-3957-41e3-bc82-f1559946b019",
+            "@nodeType": "mgnl:contentNode",
+            "external": "https://www.life.church/churches/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+            "field": "external",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        "Contact-Us": {
+          "@name": "Contact-Us",
+          "@path": "/menu/About-Us/Contact-Us",
+          "@id": "a1ffc984-a755-4333-93f3-599c0f78559c",
+          "@nodeType": "mgnl:content",
+          "name": "Contact Us",
+          "openInNewTab": false,
+          "navigationExcerpt": "We love to hear from the great people who visit and attend Life.Church.",
+          "customLink": {
+            "@name": "customLink",
+            "@path": "/menu/About-Us/Contact-Us/customLink",
+            "@id": "9771e919-1fab-4213-ac55-0d0e48fcbb4c",
+            "@nodeType": "mgnl:contentNode",
+            "field": "external",
+            "external": "https://www.life.church/contact/?utm_source=life_church&utm_medium=menu&utm_campaign=navigation",
+            "@nodes": [],
+            "@workspace": "menu"
+          },
+          "@nodes": [
+            "customLink"
+          ],
+          "@workspace": "menu"
+        },
+        "@nodes": [
+          "Our-Beliefs",
+          "What-to-Expect",
+          "For-Churches",
+          "Contact-Us"
+        ],
+        "@workspace": "menu"
+      },
+      "@nodes": [
+        "Ways-to-Connect",
+        "About-Us"
+      ],
+      "@workspace": "menu"
+    }
+  ]
+}

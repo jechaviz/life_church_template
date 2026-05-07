@@ -3,48 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Life.Church Clone</title>
-  
+  <title>Life.Church</title>
+  <meta name="description" content="Find community, watch messages, and take your next step with Life.Church.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23ff5a00'/%3E%3Cpath d='M22 18h8v20h12v8H22V18Z' fill='white'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Outfit', sans-serif;
-      background-color: #f7f7f7;
-      color: #333;
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <script>
+    window.__unocss = {
+      shortcuts: {
+        'mb-none': 'mb-0',
+        'mb-normal': 'mb-6',
+        'mb-relaxed': 'mb-12',
+        'mb-more_relaxed': 'mb-16',
+        'mb-even_more_relaxed': 'mb-24',
+        'mb-extreme_relax': 'mb-32',
+        'py-none': 'py-0',
+        'py-normal': 'py-8',
+        'py-bit_more_relaxed': 'py-12',
+        'py-slightly_more_relaxed': 'py-16',
+        'py-relaxed': 'py-20',
+        'py-more_relaxed': 'py-24',
+        'py-very_relaxed': 'py-32',
+        'py-super_relaxed': 'py-40',
+        'py-even_extra_more_relaxed': 'py-48',
+        'pt-normal': 'pt-8',
+        'pt-bit_more_relaxed': 'pt-12',
+        'pt-very_relaxed': 'pt-24',
+        'pb-normal': 'pb-8',
+        'pb-bit_more_relaxed': 'pb-12',
+        'pb-very_relaxed': 'pb-24',
+        'gray-5': 'bg-[#f1f2f4]',
+        'gray-10': 'bg-[#e2e4e8]',
+        'giving_green': 'bg-[#00a859]',
+        'text-giving_green': 'text-[#00a859]',
+        'black-overlay-50': 'bg-black/50',
+        'black-overlay-90': 'bg-black/90'
+      }
     }
-    
-    [un-cloak] {
-      display: none;
-    }
-    
-    /* Smooth transitions for all interactive elements */
-    a, button {
-      transition: all 0.3s ease;
-    }
-  </style>
-
-  <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime@66.6.8"></script>
   <script src="https://unpkg.com/vue@3.3.4/dist/vue.global.prod.js"></script>
+  <script src="https://unpkg.com/vue-router@4.2.4/dist/vue-router.global.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue3-sfc-loader@0.8.4/dist/vue3-sfc-loader.js"></script>
+  <script src="./siteData.js"></script>
+  <style>
+    :root { --lc-orange: #ff5a00; --lc-orange-dark: #e65100; --lc-deep-slate: #0a0c10; --lc-pearl: #f8fafc; }
+    body { margin: 0; padding: 0; font-family: 'Outfit', sans-serif; background-color: var(--lc-pearl); color: var(--lc-deep-slate); -webkit-font-smoothing: antialiased; }
+    [un-cloak] { display: none; }
+    a { color: inherit; text-decoration: none; }
+    a, button { transition: all 0.3s ease; }
+    .black-overlay-50 { background-color: rgba(0,0,0,0.5); }
+    .black-overlay-90 { background-color: rgba(0,0,0,0.9); }
+  </style>
 </head>
 <body un-cloak>
   <div id="app"></div>
-
   <script>
+    window.sanitizeCmsHtml = (html, opts = {}) => {
+      if (!html) return '';
+      const template = document.createElement('template');
+      template.innerHTML = String(html);
+      const blocked = opts.allowIframes
+        ? 'script,style,object,embed,link,meta'
+        : 'script,style,iframe,object,embed,link,meta';
+
+      template.content.querySelectorAll(blocked).forEach((node) => node.remove());
+
+      template.content.querySelectorAll('*').forEach((node) => {
+        [...node.attributes].forEach((attr) => {
+          const name = attr.name.toLowerCase();
+          const value = attr.value.trim();
+
+          if (name.startsWith('on') || name === 'style') {
+            node.removeAttribute(attr.name);
+            return;
+          }
+
+          if ((name === 'href' || name === 'src' || name === 'xlink:href') && /^javascript:/i.test(value)) {
+            node.removeAttribute(attr.name);
+          }
+        });
+
+        if (node.tagName === 'A' && node.getAttribute('target') === '_blank') {
+          node.setAttribute('rel', 'noopener noreferrer');
+        }
+      });
+
+      return template.innerHTML;
+    };
+
     const options = {
-      moduleCache: {
-        vue: Vue,
-      },
+      moduleCache: { vue: Vue },
       async getFile(url) {
         const res = await fetch(url);
-        if (!res.ok)
-          throw Object.assign(new Error(res.statusText + ' ' + url), { res });
+        if (!res.ok) throw Object.assign(new Error(res.statusText + ' ' + url), { res });
         return {
-          getContentData: asBinary => asBinary ? res.arrayBuffer() : res.text(),
-        }
+          getContentData: (asBinary) => asBinary ? res.arrayBuffer() : res.text(),
+        };
       },
       addStyle(textContent) {
         const style = Object.assign(document.createElement('style'), { textContent });
@@ -54,14 +111,78 @@
     };
 
     const { loadModule } = window['vue3-sfc-loader'];
+    window.sfcOptions = options;
+    const loadAsyncComponent = (path) => Vue.defineAsyncComponent(() => loadModule(path, options));
+    const loadRouteComponent = (path) => () => loadModule(path, options);
 
-    const app = Vue.createApp({
+    const MagnoliaComponents = {
+      MagnoliaZone: loadAsyncComponent('./components/Magnolia/MagnoliaZone.vue'),
+      MagnoliaSingleContentZone: loadAsyncComponent('./components/Magnolia/MagnoliaSingleContentZone.vue'),
+      MagnoliaDualContentZone: loadAsyncComponent('./components/Magnolia/MagnoliaDualContentZone.vue'),
+      MagnoliaHeading: loadAsyncComponent('./components/Magnolia/MagnoliaHeading.vue'),
+      MagnoliaSpacer: loadAsyncComponent('./components/Magnolia/MagnoliaSpacer.vue'),
+      MagnoliaContentList: loadAsyncComponent('./components/Magnolia/MagnoliaContentList.vue'),
+      MagnoliaRichText: loadAsyncComponent('./components/Magnolia/MagnoliaRichText.vue'),
+      MagnoliaCompositeButtonGroup: loadAsyncComponent('./components/Magnolia/MagnoliaCompositeButtonGroup.vue'),
+      MagnoliaLocationsListing: loadAsyncComponent('./components/Magnolia/MagnoliaLocationsListing.vue'),
+      MagnoliaMediaCollectionListing: loadAsyncComponent('./components/Magnolia/MagnoliaMediaCollectionListing.vue'),
+      MagnoliaMediaAsset: loadAsyncComponent('./components/Magnolia/MagnoliaMediaAsset.vue'),
+      MagnoliaAccordion: loadAsyncComponent('./components/Magnolia/MagnoliaAccordion.vue'),
+      MagnoliaAccordionItem: loadAsyncComponent('./components/Magnolia/MagnoliaAccordionItem.vue'),
+      MagnoliaVideo: loadAsyncComponent('./components/Magnolia/MagnoliaVideo.vue'),
+      MagnoliaEmbedItem: loadAsyncComponent('./components/Magnolia/MagnoliaEmbedItem.vue'),
+      MagnoliaBanner: loadAsyncComponent('./components/Magnolia/MagnoliaBanner.vue'),
+      MagnoliaCopyThisText: loadAsyncComponent('./components/Magnolia/MagnoliaCopyThisText.vue'),
+      MagnoliaSpecialEventTimes: loadAsyncComponent('./components/Magnolia/MagnoliaSpecialEventTimes.vue'),
+      LocationSection: loadAsyncComponent('./components/LocationSection.vue'),
+    };
+
+    // Add them to the options module cache if needed, or just define them globally
+    // For SFC loader to find them, they usually need to be in the components option of the parent
+    // but MagnoliaZone resolves them via a map. We'll pass them in via a global mixin or similar.
+
+    const Layout = {
+      template: `
+        <div class="layout">
+          <TopBanner />
+          <AppHeader />
+          <router-view />
+          <AppFooter />
+          <FloatingSupport />
+        </div>
+      `,
       components: {
-        'App': Vue.defineAsyncComponent(() => loadModule('./App.vue', options))
-      },
-      template: '<App/>'
+        TopBanner: loadAsyncComponent('./components/TopBanner.vue'),
+        AppHeader: loadAsyncComponent('./components/AppHeader.vue'),
+        AppFooter: loadAsyncComponent('./components/AppFooter.vue'),
+        FloatingSupport: loadAsyncComponent('./components/FloatingSupport.vue')
+      }
+    };
+
+    const DynamicPage = loadRouteComponent('./DynamicPage.vue');
+
+    const router = VueRouter.createRouter({
+      history: VueRouter.createWebHashHistory(),
+      routes: [
+        {
+          path: '/',
+          component: Layout,
+          children: [
+            { path: '', component: loadRouteComponent('./App.vue') },
+            { path: ':pathMatch(.*)*', component: DynamicPage }
+          ]
+        }
+      ]
     });
 
+    const app = Vue.createApp({ template: '<router-view />' });
+
+    // Register Magnolia components globally
+    for (const [name, component] of Object.entries(MagnoliaComponents)) {
+      app.component(name, component);
+    }
+
+    app.use(router);
     app.mount('#app');
   </script>
 </body>
