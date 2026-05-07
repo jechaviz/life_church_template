@@ -1,102 +1,71 @@
 <template>
-  <section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gray-900 pt-20">
-    <!-- Background Image / Video Wrapper -->
-    <div class="absolute inset-0 z-0">
-      <!-- Video Background -->
-      <video
-        autoplay
-        muted
-        loop
-        playsinline
-        class="absolute inset-0 w-full h-full object-cover opacity-60"
-      >
-        <source src="https://cms-assets.life.church/lc-site/pages/easter/Easter Web Background Edit.mp4" type="video/mp4">
-      </video>
-      <!-- Fallback Image -->
-      <img 
-        src="https://cms-images.life.church/lc-site/pages/easter/2026/easter-clouds-gradient-lower.jpg" 
-        alt="Background" 
-        class="absolute inset-0 w-full h-full object-cover transform scale-105 transition-transform duration-[20s] ease-out animate-slow-zoom -z-10"
-      />
-      <!-- Gradient Overlay matching "black-overlay-50" -->
-      <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-gray-900/20"></div>
+  <section class="relative min-h-[92vh] flex items-end overflow-hidden bg-gray-950 pt-28 sm:pt-36">
+    <div class="absolute inset-0">
+      <picture>
+        <source
+          media="(max-width: 640px)"
+          srcset="https://cms-images.life.church/lc-site/pages/who-we-are/Who-We-Are-Mobile-Update-July2025.jpg"
+        />
+        <img
+          src="https://cms-images.life.church/lc-site/pages/who-we-are/Who-We-Are-Desktop-Updated-July2025.jpg"
+          alt="People gathered at Life.Church"
+          class="w-full h-full object-cover"
+        />
+      </picture>
+      <div class="absolute inset-0 bg-gradient-to-r from-gray-950 via-gray-950/70 to-gray-950/20"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-gray-950 via-transparent to-gray-950/30"></div>
     </div>
 
-    <!-- Content Container -->
-    <div class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex flex-col md:flex-row items-center justify-between gap-12">
-      
-      <!-- Left Content Zone -->
-      <div class="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left space-y-8 animate-fade-in-up">
-        <!-- Title Image -->
-        <img 
-          src="https://cms-images.life.church/lc-site/pages/easter/2026/easter-title-full.png" 
-          alt="Easter at Life.Church" 
-          class="max-w-full w-4/5 md:w-full drop-shadow-2xl translate-y-0 group-hover:-translate-y-2 transition-transform duration-500"
-        />
-        
-        <!-- CTA Button -->
-        <a href="https://www.life.church/easter/?utm_source=life_church&utm_medium=homepage&utm_campaign=easter-ad_no-dept_engagement#about" class="btn bg-white/10 hover:bg-white text-white hover:text-gray-900 border border-white/30 hover:border-white backdrop-blur-sm shadow-xl px-8 py-4 text-lg mt-4 animate-fade-in-up animation-delay-300 group">
-          Learn What You Can Expect
-          <i class="fa-solid fa-arrow-right ml-2 opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-2 transition-all duration-300"></i>
-        </a>
-      </div>
-
-      <!-- Right Content Zone -->
-      <div class="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left text-white space-y-6 animate-fade-in-up animation-delay-500">
-        <h1 class="text-4xl md:text-6xl font-black tracking-tight text-shadow-md border-b-4 border-orange-500 pb-2 inline-block">
-          APRIL 3-6
+    <div class="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 pb-20 sm:pb-28">
+      <div class="max-w-3xl text-white">
+        <p class="text-sm font-black uppercase text-orange-500 mb-6">Life.Church Online and in person</p>
+        <h1 class="text-5xl sm:text-7xl lg:text-8xl font-black leading-[0.9] mb-8">
+          You're welcome here.
         </h1>
-        <p class="text-xl md:text-2xl font-light text-gray-200 leading-relaxed max-w-lg">
-          Find an Easter service time by choosing a Life.Church location near you.
+        <p class="text-lg sm:text-2xl text-white/80 leading-relaxed max-w-2xl mb-10">
+          Find community, watch the latest message, and take your next step with Life.Church.
         </p>
-        
-        <!-- Times/Location Button -->
-        <a href="https://www.life.church/locations" class="btn btn-primary shadow-orange-500/50 shadow-lg px-8 py-4 text-lg">
-          <i class="fa-solid fa-location-dot mr-2"></i> Find a Location
-        </a>
-        <p class="text-sm text-gray-400 mt-4">
-          All online services are in US Central Time. 
-          <a href="https://live.life.church/" class="text-white hover:text-orange-400 font-bold underline transition-colors">Attend Online</a>
-        </p>
-      </div>
 
+        <div class="flex flex-col sm:flex-row gap-4 mb-12">
+          <router-link
+            to="/locations"
+            class="inline-flex items-center justify-center px-8 py-4 bg-orange-600 text-white rounded-full font-black hover:bg-orange-500 shadow-2xl shadow-orange-600/30"
+          >
+            Find a Location
+          </router-link>
+          <a
+            href="https://live.life.church/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center px-8 py-4 bg-white text-gray-950 rounded-full font-black hover:bg-gray-100"
+          >
+            Watch Online
+            <i class="fa-solid fa-arrow-up-right-from-square text-xs ml-3"></i>
+          </a>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 max-w-xl">
+          <div v-for="stat in stats" :key="stat.label" class="border-t border-white/20 pt-4">
+            <div class="text-2xl sm:text-3xl font-black">{{ stat.value }}</div>
+            <div class="text-xs text-white/60 font-bold uppercase mt-1">{{ stat.label }}</div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'HeroSection'
+  name: 'HeroSection',
+  data() {
+    return {
+      stats: [
+        { value: '35+', label: 'Campuses' },
+        { value: '24/7', label: 'Online' },
+        { value: 'Free', label: 'Resources' }
+      ]
+    }
+  }
 }
 </script>
-
-<style>
-@keyframes slowZoom {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.1); }
-}
-.animate-slow-zoom {
-  animation: slowZoom 30s ease-in-out infinite alternate;
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.animate-fade-in-up {
-  animation: fadeInUp 1s ease-out forwards;
-  opacity: 0;
-}
-.animation-delay-300 {
-  animation-delay: 0.3s;
-}
-.animation-delay-500 {
-  animation-delay: 0.5s;
-}
-</style>
