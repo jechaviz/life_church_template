@@ -1,10 +1,10 @@
 <template>
-  <div 
-    class="magnolia-heading" 
+  <div
+    class="magnolia-heading"
     :class="[alignment, colorsetting, sbOnMobile, sbOnTabletAndUp]"
   >
-    <component 
-      :is="headingLevel" 
+    <component
+      :is="headingLevel"
       :class="headingTypeClasses"
       v-html="safeHeadingText"
     >

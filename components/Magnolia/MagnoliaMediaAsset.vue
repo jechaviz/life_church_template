@@ -1,8 +1,8 @@
 <template>
   <div :class="[containerClasses]">
-    <img 
+    <img
       v-if="src"
-      :src="src" 
+      :src="src"
       :alt="altText"
       :class="[imgClasses]"
       :style="customStyle"
@@ -34,14 +34,14 @@ const altText = computed(() => props.alt || 'Life.Church Image');
 
 const containerClasses = computed(() => {
   const classes = ['relative', 'flex', 'w-full'];
-  
+
   if (props.alignment === 'center') classes.push('justify-center');
   if (props.alignment === 'text-left' || props.alignment === 'left') classes.push('justify-start');
   if (props.alignment === 'text-right' || props.alignment === 'right') classes.push('justify-end');
-  
+
   if (props.sbOnMobile && props.sbOnMobile !== 'mb-none') classes.push(props.sbOnMobile);
   if (props.sbOnTabletAndUp && props.sbOnTabletAndUp !== 'mb-none') classes.push(`md:${props.sbOnTabletAndUp}`);
-  
+
   return classes.join(' ');
 });
 

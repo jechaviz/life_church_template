@@ -3,7 +3,7 @@
     <div v-if="loading" class="flex items-center justify-center min-h-[60vh]">
       <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-orange-500"></div>
     </div>
-    
+
     <div v-else-if="error" class="container mx-auto px-6 py-24 text-center">
       <h1 class="text-4xl font-bold mb-4">Page Not Found</h1>
       <p class="text-white/60 mb-8">We couldn't load the content for this section.</p>
@@ -29,11 +29,11 @@ const error = ref(false);
 const loadPageData = async () => {
   loading.value = true;
   error.value = false;
-  
+
   // Extract the first part of the path as the page key (e.g., /media -> media)
   const pathParts = route.path.split('/').filter(p => p);
   const pageKey = pathParts[0] || 'index.htm';
-  
+
   try {
     const response = await fetch(`./pages_data/${pageKey}.json`);
     if (!response.ok) throw new Error('Failed to load page data');

@@ -1,32 +1,32 @@
 <template>
-  <section 
-    class="magnolia-single-content-zone relative overflow-hidden" 
+  <section
+    class="magnolia-single-content-zone relative overflow-hidden"
     :class="[bgcolor, pyOnMobile, pyOnTabletAndUp, sbOnMobile, sbOnTabletAndUp, alignment, colorsetting]"
     :style="sectionStyle"
   >
     <!-- Background Video -->
-    <video 
+    <video
       v-if="backgroundVideo_public"
       autoplay muted loop playsinline
       class="absolute inset-0 w-full h-full object-cover -z-10 opacity-40"
     >
       <source :src="backgroundVideo_public" type="video/mp4">
     </video>
-    <div 
+    <div
       v-else-if="backgroundImage_public"
       class="absolute inset-0 w-full h-full bg-cover bg-center -z-10"
       :style="{ backgroundImage: `url(${backgroundImage_public})` }"
     ></div>
 
     <!-- Gradient Overlay -->
-    <div 
+    <div
       v-if="gradientType !== 'none'"
       class="absolute inset-0 -z-5 pointer-events-none"
       :class="gradientClass"
     ></div>
 
     <div class="container mx-auto px-6 relative z-10">
-      <div 
+      <div
         class="content-wrapper"
         :class="[zoneWidthClass, zoneHeightClass]"
       >

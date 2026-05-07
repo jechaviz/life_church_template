@@ -1,7 +1,7 @@
 <template>
   <div class="relative w-full aspect-video rounded-[32px] overflow-hidden shadow-2xl bg-black/50 border border-white/10 group cursor-pointer">
     <iframe v-if="iframeMarkup" :src="iframeSrc" class="w-full h-full border-none" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-    
+
     <!-- Custom placeholder/poster if no iframe but we have a poster -->
     <div v-if="!iframeMarkup && posterImg" class="absolute inset-0">
       <img :src="posterImg" :alt="posterAlt" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-700" />

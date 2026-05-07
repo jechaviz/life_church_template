@@ -40,7 +40,7 @@ const props = defineProps({
  */
 const sortedComponents = computed(() => {
   if (!props.area) return [];
-  
+
   // Filter out meta properties like "@name", "@id", etc.
   return Object.keys(props.area)
     .filter(key => /^\d+$/.test(key))
@@ -50,7 +50,7 @@ const sortedComponents = computed(() => {
 
 const getComponentType = (template) => {
   if (!template) return null;
-  
+
   const templateMap = {
     'lifechurch:components/singlecontentzone': 'MagnoliaSingleContentZone',
     'lifechurch:components/dualcontentzone': 'MagnoliaDualContentZone',
@@ -71,7 +71,7 @@ const getComponentType = (template) => {
     'lifechurch:components/copythistext': 'MagnoliaCopyThisText',
     'lifechurch:components/specialeventtimes': 'MagnoliaSpecialEventTimes'
   };
-  
+
   return templateMap[template] || null;
 };
 </script>

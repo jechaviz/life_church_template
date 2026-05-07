@@ -1,5 +1,5 @@
 <template>
-  <div 
+  <div
     class="magnolia-richtext prose prose-invert max-w-none mb-6"
     :class="[alignment, colorsetting, sbOnMobile, sbOnTabletAndUp]"
     v-html="safeContent"
